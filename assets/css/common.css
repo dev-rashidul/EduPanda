@@ -1,0 +1,338 @@
+/* Common Styles CSS Start */
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Colors */
+
+:root {
+  --primary: #00b672;
+  --secondary: #0e3960;
+  --black: rgba(0, 0, 0, 0.7);
+  --light: #ffffff;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.fill-btn {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--light);
+  background: var(--primary);
+  padding: 12px 16px;
+  border-radius: 4px;
+}
+
+.outline-btn {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--light);
+  background: transparent;
+  padding: 11px 16px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+/* Common Styles CSS End */
+
+/* Header Part CSS Start */
+
+/* Navigation Section CSS Start */
+
+nav.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1c2538;
+  padding: 25px 0;
+  z-index: 999;
+}
+
+.logo img {
+  max-width: 175px;
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: var(--light) !important;
+  padding: 12px 15px !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--light) !important;
+}
+
+.dropdown {
+  text-align: center;
+}
+
+.dropdown-menu {
+  padding: 10px 20px;
+  background: #111c2a;
+  border: 0.624392px solid rgba(128, 128, 128, 0.3);
+  border-radius: 6.24392px;
+}
+
+.dropdown-menu li {
+  color: var(--light);
+  padding: 7px 0;
+  border-bottom: 0.624392px solid rgba(69, 69, 69, 0.5);
+}
+
+.dropdown-menu li:last-child {
+  color: var(--light);
+  border-bottom: none;
+}
+
+.dropdown-item {
+  color: var(--light);
+  padding: 0;
+}
+
+.dropdown-item:hover {
+  color: var(--light);
+  background: none;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-toggle.show .dropdown_icon {
+  transform: rotate(180deg);
+}
+
+.login-btn {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--light);
+  background: var(--primary);
+  padding: 8px 16px !important;
+  border-radius: 4px;
+}
+
+.register-btn {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--light);
+  background: transparent;
+  padding: 7px 16px !important;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+.country-dropdown {
+  position: relative;
+  padding-right: 15px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.wrapper i {
+  color: #ffffff;
+  padding-left: 5px;
+}
+
+.country-list {
+  position: absolute;
+  top: 22px;
+  display: none;
+}
+
+.country-list.active {
+  display: block;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+  margin-top: -15px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+.toggler-icon {
+  width: 25px;
+  height: 2px;
+  background-color: var(--light);
+  display: block;
+  transition: all 0.2s;
+}
+
+.middle-bar {
+  margin: 5px auto;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: var(--light);
+}
+
+@media (max-width: 1200px) {
+  .navbar .container {
+    padding: 0;
+  }
+
+  .logo {
+    padding-left: 15px;
+  }
+
+  .navbar-toggler {
+    padding-top: 18px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-wrapper {
+    height: 100vh !important;
+    background: #111c2a;
+  }
+
+  .navbar-nav {
+    align-items: center;
+    padding: 20px 25px 0;
+    margin-top: 20px;
+  }
+
+  .nav-item {
+    width: 100%;
+    text-align: center;
+    padding: 6px 0;
+    border-bottom: 0.624392px solid #4b4b4b;
+  }
+
+  .nav-item:last-child {
+    border: none !important;
+  }
+
+  .nav-link {
+    padding: 5px 0 !important;
+  }
+
+  .dropdown-menu {
+    text-align: center;
+    padding: 0;
+    border: none;
+  }
+
+  .dropdown-menu li {
+    border: none;
+    padding: 4px 0;
+  }
+
+  .nav-buttons {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px 0;
+  }
+
+  .nav-buttons li {
+    width: 48%;
+  }
+
+  .register-btn {
+    text-align: center;
+    padding: 8px !important;
+  }
+
+  .login-btn {
+    text-align: center;
+    padding: 9px !important;
+  }
+
+  .country-dropdown {
+    position: absolute;
+    left: 52%;
+    transform: translateX(-50%);
+    top: 78px;
+  }
+}
+
+/* Navigation Section CSS End */
