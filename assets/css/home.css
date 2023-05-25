@@ -4,7 +4,7 @@
   background: url(../images/home/hero-bg.png);
   background-size: cover;
   background-repeat: repeat;
-  margin-top: 92px;
+  margin-top: 82px;
   padding: 180px 0 250px;
   z-index: -1;
 }
@@ -15,21 +15,21 @@
   line-height: 16px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--light);
 }
 
 .hero-content h2 {
   font-size: 34px;
   font-weight: 700;
   line-height: 39px;
-  color: #ffffff;
+  color: var(--light);
   padding: 10px 0;
 }
 
 .hero-content p {
   font-size: 14px;
   line-height: 20px;
-  color: #ffffff;
+  color: var(--light);
 }
 
 .hero-buttons {
@@ -44,3 +44,44 @@
 }
 
 /* Hero Section CSS End */
+
+/* Tutor Steps Section HTML Start */
+
+.tutor-steps-wrapper {
+  padding-top: 60px;
+}
+
+.tutor-steps-title {
+  max-width: 650px;
+  width: 100%;
+}
+
+.steps-card {
+  padding-top: 30px;
+}
+
+.steps-card-icon {
+  max-width: 91px;
+  width: 100%;
+  min-height: 97px;
+  max-height: 97px;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.steps-card-content h6 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: var(--secondary);
+}
+
+.steps-card-content p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark);
+  margin-bottom: 0;
+}
+
+/* Tutor Steps Section HTML End */
