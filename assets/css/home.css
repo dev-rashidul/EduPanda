@@ -1,0 +1,46 @@
+/* Hero Section CSS Start */
+
+.hero-wrapper {
+  background: url(../images/home/hero-bg.png);
+  background-size: cover;
+  background-repeat: repeat;
+  margin-top: 92px;
+  padding: 180px 0 250px;
+  z-index: -1;
+}
+
+.hero-content span {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 39px;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.hero-content p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.hero-buttons {
+  padding-top: 10px;
+}
+
+.hero-img {
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+  z-index: -1;
+}
+
+/* Hero Section CSS End */

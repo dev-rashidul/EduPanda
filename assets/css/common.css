@@ -58,7 +58,7 @@ img {
   color: var(--light);
   background: transparent;
   padding: 11px 16px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--primary);
   border-radius: 4px;
 }
 
@@ -336,3 +336,34 @@ nav.navbar {
 }
 
 /* Navigation Section CSS End */
+
+/* Responsive CSS */
+
+/* Min Width 1400px and Max Width 1599px */
+@media (min-width: 1400px) and (max-width: 1599px) {
+}
+
+/* Min Width 1200px and Max Width 1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* Min Width 992px and Max Width 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Min Width 768px and Max Width 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Min Width 300px and Max Width 767px */
+@media (min-width: 300px) and (max-width: 767px) {
+  .fill-btn {
+    font-size: 12px;
+    padding: 12px 11px;
+  }
+
+  .outline-btn {
+    font-size: 12px;
+    padding: 11px 11px;
+  }
+}
