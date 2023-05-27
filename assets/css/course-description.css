@@ -1,0 +1,57 @@
+/* Course Description Hero Section CSS Start */
+
+.cd-hero-wrapper {
+  padding: 130px 0 50px;
+  background: #111c2a;
+}
+
+.cd-hero-content span {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--light);
+}
+
+.cd-hero-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 39px;
+  color: var(--light);
+  padding: 10px 0;
+}
+
+.cd-hero-content p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--light);
+}
+
+.cd-hero-img img {
+  max-width: 100%;
+  width: 100%;
+  min-height: 240px;
+  max-height: 240px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Course Description Hero Section CSS End */
+
+/* Course Description Content Section CSS Start  */
+
+.cd-content-wrapper {
+  padding-top: 50px;
+}
+
+.cd-content-img img {
+  max-width: 100%;
+  width: 100%;
+  min-height: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Course Description Content Section CSS End  */
