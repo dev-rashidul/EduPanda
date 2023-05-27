@@ -252,10 +252,10 @@
   .course-outline-card-img img {
     max-width: 100%;
     width: 100%;
-    min-height: 120px;
-    max-height: 120px;
+    min-height: 140px;
+    max-height: 140px;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 10px 10px 0 0;
   }
 

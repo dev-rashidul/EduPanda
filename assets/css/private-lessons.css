@@ -1,0 +1,168 @@
+/* Private Lessions Hero Section CSS Start */
+
+.private-lessons-hero-wrapper {
+  padding: 130px 0 50px;
+  background: url(../images/private-lessons/private-lessons-hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.private-lessons-hero-content span {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--light);
+}
+
+.private-lessons-hero-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 39px;
+  color: var(--light);
+  padding: 10px 0;
+}
+
+.private-lessons-hero-content p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--light);
+}
+
+.private-lessons-hero-img img {
+  max-width: 100%;
+  width: 100%;
+  min-height: 240px;
+  max-height: 240px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Private Lessions Hero Section CSS End */
+
+/* Lessons Section CSS Start */
+
+.lessons-wrapper {
+  padding-top: 40px;
+}
+
+.cracow-tag span,
+.warsaw-tag span,
+.online-tag span {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 3px 20px;
+  margin-right: 6px;
+  border-radius: 10px;
+}
+
+.cracow-tag span {
+  color: #c85512;
+  border: 1px solid #c85512;
+}
+
+.warsaw-tag span {
+  color: #673a91;
+  border: 1px solid #673a91;
+}
+
+.online-tag span {
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.lessons-content ul li {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark);
+}
+
+.lessons-content p {
+  padding-bottom: 5px;
+}
+
+.lessons-card-container {
+  padding-top: 40px;
+}
+
+.lessons-card-content h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--secondary);
+}
+
+.lessons-card-img img {
+  max-width: 100%;
+  width: 100%;
+  min-height: 340px;
+  max-height: 340px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.instructor-profile {
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+}
+
+.profile-pic {
+  max-width: 120px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.profile-pic img {
+  max-width: 120px;
+  width: 100%;
+  min-height: 120px;
+  max-height: 120px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.profile-desc h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #000000;
+}
+
+.profile-desc ul li,
+.profile-desc ul li a {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark);
+}
+
+/* Lessons Section CSS End */
+
+/* Responsive CSS */
+
+/* Min Width 300px and Max Width 767px */
+@media (min-width: 300px) and (max-width: 767px) {
+  .private-lessons-hero-content h2 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .lessons-card-content h4 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .lessons-card-img img {
+    max-width: 100%;
+    width: 100%;
+    min-height: 270px;
+    max-height: 270px;
+    height: 100%;
+  }
+}
