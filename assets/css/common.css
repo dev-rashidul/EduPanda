@@ -41,6 +41,12 @@ img {
   max-width: 100%;
 }
 
+p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark);
+}
+
 .fill-btn {
   font-family: "Inter", sans-serif;
   font-size: 14px;
@@ -364,6 +370,50 @@ nav.navbar {
 
 /* Navigation Section CSS End */
 
+/* Footer Section CSS Start */
+
+.footer-wrapper {
+  background: url(../images/common/footer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+  padding: 60px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.footer-about p {
+  color: #898d94;
+  padding: 10px 0;
+}
+
+.footer-social a {
+  padding-right: 10px;
+}
+
+.footer-nav h6 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  color: var(--light);
+  padding-bottom: 2px;
+}
+
+.footer-nav ul li a {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--light);
+}
+
+/* Footer Section CSS End */
+
 /* Responsive CSS */
 
 /* Min Width 1400px and Max Width 1599px */
@@ -380,10 +430,19 @@ nav.navbar {
 
 /* Min Width 768px and Max Width 991px */
 @media (min-width: 768px) and (max-width: 991px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Min Width 300px and Max Width 767px */
 @media (min-width: 300px) and (max-width: 767px) {
+  .section-title h4 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
   .fill-btn {
     font-size: 12px;
     padding: 12px 11px;
@@ -392,5 +451,18 @@ nav.navbar {
   .outline-btn {
     font-size: 12px;
     padding: 11px 11px;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-menu {
+    text-align: center;
+  }
+
+  .pt-30 {
+    padding-top: 0;
   }
 }
