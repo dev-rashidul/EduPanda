@@ -169,11 +169,11 @@
         <div class="cd-hero-wrapper">
           <div class="container">
             <div class="row align-items-center">
-              <div class="col-md-8">
+              <div class="col-md-6 col-lg-8">
                 <div class="cd-hero-content">
                   <span>Łączna liczba zadań - 161</span>
                   <h2>Mechanika budowli – kurs online</h2>
-                  <p>
+                  <p class="d-none d-md-block">
                     Poniżej znajdziesz materiały podzielone na wstęp
                     teoretyczny, przykładowe zadania oraz nagrania video które
                     pomogą Ci w miarę bezboleśnie przejść przez twój kurs
@@ -181,13 +181,21 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-6 col-lg-4">
                 <div class="cd-hero-img">
                   <img
                     src="assets/images/course-description/course-description-hero-img.png"
                     alt="course-description-hero-img"
                   />
                 </div>
+              </div>
+              <div class="cd-hero-content pt-3 d-md-none">
+                <p>
+                  Poniżej znajdziesz materiały podzielone na wstęp teoretyczny,
+                  przykładowe zadania oraz nagrania video które pomogą Ci w
+                  miarę bezboleśnie przejść przez twój kurs mechaniki budowli /
+                  mechaniki konstrukcji na studiach.
+                </p>
               </div>
             </div>
           </div>
@@ -207,8 +215,8 @@
       <section id="CD-content">
         <div class="cd-content-wrapper">
           <div class="container">
-            <div class="row align-items-center">
-              <div class="col-md-4">
+            <div class="row align-items-center flex-column-reverse flex-md-row">
+              <div class="col-md-6 col-lg-4 pt-4 pt-md-0">
                 <div class="cd-content-img">
                   <img
                     src="assets/images/course-description/course-description-content-img.png"
@@ -216,7 +224,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-8">
+              <div class="col-md-6 col-lg-8">
                 <div class="cd-content-text">
                   <p>
                     Przez długie lata zajmowaliśmy się korepetycjami z mechaniki
@@ -335,15 +343,76 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong>
-                      It is shown by default, until the collapse plugin adds the
-                      appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      <div class="course-outline-cards-container">
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb1.png"
+                              alt="course-outline-thumb1"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki proste</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb2.png"
+                              alt="course-outline-thumb2"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki gerberowskie</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb3.png"
+                              alt="course-outline-thumb3"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>
+                              Metoda sił - stopień statycznej niewyznaczalności
+                              i układ podstawowy
+                            </h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb2.png"
+                              alt="course-outline-thumb2"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki gerberowskie</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb2.png"
+                              alt="course-outline-thumb2"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki gerberowskie</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -357,7 +426,12 @@
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      Accordion Item #2
+                      <h4>Linie Metoda sił</h4>
+                      <div class="accordion-header-info d-md-flex">
+                        <p>4 zadania</p>
+                        <p>Czas trwania zajęć — 1 godz 54 min</p>
+                        <p>3 video</p>
+                      </div>
                     </button>
                   </h2>
                   <div
@@ -366,15 +440,76 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong>
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      <div class="course-outline-cards-container">
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb1.png"
+                              alt="course-outline-thumb1"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki proste</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb2.png"
+                              alt="course-outline-thumb2"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki gerberowskie</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb3.png"
+                              alt="course-outline-thumb3"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>
+                              Metoda sił - stopień statycznej niewyznaczalności
+                              i układ podstawowy
+                            </h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb2.png"
+                              alt="course-outline-thumb2"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki gerberowskie</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb2.png"
+                              alt="course-outline-thumb2"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki gerberowskie</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -388,7 +523,12 @@
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      Accordion Item #3
+                      <h4>Przemieszczenia metodą Maxwella-Mohra</h4>
+                      <div class="accordion-header-info d-md-flex">
+                        <p>4 zadania</p>
+                        <p>Czas trwania zajęć — 1 godz 54 min</p>
+                        <p>3 video</p>
+                      </div>
                     </button>
                   </h2>
                   <div
@@ -397,15 +537,173 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong>
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      <div class="course-outline-cards-container">
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb1.png"
+                              alt="course-outline-thumb1"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki proste</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb2.png"
+                              alt="course-outline-thumb2"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki gerberowskie</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb3.png"
+                              alt="course-outline-thumb3"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>
+                              Metoda sił - stopień statycznej niewyznaczalności
+                              i układ podstawowy
+                            </h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb2.png"
+                              alt="course-outline-thumb2"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki gerberowskie</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb2.png"
+                              alt="course-outline-thumb2"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki gerberowskie</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      <h4>Przemieszczenia metodą Maxwella-Mohra</h4>
+                      <div class="accordion-header-info d-md-flex">
+                        <p>4 zadania</p>
+                        <p>Czas trwania zajęć — 1 godz 54 min</p>
+                        <p>3 video</p>
+                      </div>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <div class="course-outline-cards-container">
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb1.png"
+                              alt="course-outline-thumb1"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki proste</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb2.png"
+                              alt="course-outline-thumb2"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki gerberowskie</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb3.png"
+                              alt="course-outline-thumb3"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>
+                              Metoda sił - stopień statycznej niewyznaczalności
+                              i układ podstawowy
+                            </h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb2.png"
+                              alt="course-outline-thumb2"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki gerberowskie</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                        <div class="course-outline-card position-relative">
+                          <div class="course-outline-card-img">
+                            <img
+                              src="assets/images/course-description/course-outline-thumb2.png"
+                              alt="course-outline-thumb2"
+                            />
+                          </div>
+                          <div class="course-outline-card-content">
+                            <h6>Belki gerberowskie</h6>
+                            <p class="ccoc-quests">6 Zadań</p>
+                            <p class="ccoc-duration">30 min</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
