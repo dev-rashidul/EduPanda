@@ -55,3 +55,100 @@
 }
 
 /* Course Description Content Section CSS End  */
+
+/* Course Outline Section CSS Start */
+
+.course-outline-wrapper {
+  padding-top: 40px;
+}
+
+.course-outline-top h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--secondary);
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.cracow-tag span,
+.warsaw-tag span,
+.online-tag span {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 3px 20px;
+  margin-right: 6px;
+  border-radius: 10px;
+}
+
+.cracow-tag span {
+  color: #c85512;
+  border: 1px solid #c85512;
+}
+
+.warsaw-tag span {
+  color: #673a91;
+  border: 1px solid #673a91;
+}
+
+.online-tag span {
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.course-outline-accordion {
+  padding-top: 50px;
+}
+
+.accordion-item {
+  background: var(--light);
+  margin-bottom: 20px;
+  border: 1px solid #dcdcdc !important;
+  border-radius: 6px !important;
+}
+
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  background: transparent;
+  border: #ffffff !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+}
+
+.accordion-button:not(.collapsed) {
+  border-bottom: 1px solid #dcdcdc !important;
+  border-radius: 0 0 6px 6px;
+}
+
+.accordion-button:focus {
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+
+.accordion-button::after {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.accordion-button h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--secondary);
+  margin-bottom: 0;
+}
+
+.accordion-header-info p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--dark);
+  padding-right: 25px;
+  margin-bottom: 0;
+}
+
+/* Course Outline Section CSS End */
