@@ -1,0 +1,416 @@
+/* Blog Hero Section CSS Start */
+
+.blog-hero-wrapper {
+  background: url(../images/blog/blog-hero-bg.png);
+  background-size: cover;
+  background-repeat: repeat;
+  margin-top: 82px;
+  padding: 50px 0 180px;
+  z-index: 1;
+}
+
+.blog-hero-content {
+  padding-top: 50px;
+}
+
+.blog-hero-content span {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--light);
+}
+
+.blog-hero-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 39px;
+  color: var(--light);
+  padding: 10px 0;
+}
+
+.blog-hero-content p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--light);
+}
+
+.blog-hero-img {
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+  z-index: -1;
+}
+
+/* Blog Hero Section CSS End */
+
+/* Blog Post Section CSS Start */
+
+.blog-post-card {
+  padding-top: 60px;
+}
+
+.blog-post-title h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--secondary);
+  margin: 0;
+}
+
+.blog-post-img {
+  padding: 30px 0;
+}
+
+.blog-post-img img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.date-comments span {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark);
+}
+
+.date-comments a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  color: var(--secondary);
+  padding-left: 3px;
+}
+
+.blog-pagination ul li {
+  padding: 0 7px;
+}
+
+.blog-pagination ul li a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  color: var(--dark);
+}
+
+.blog-pagination ul li a.active {
+  color: var(--primary);
+  border-bottom: 2px solid var(--primary);
+}
+
+.recent-popular-post-wrapper {
+  padding-top: 60px;
+  padding-left: 40px;
+}
+@media (max-width: 1200px) {
+  .nav-item {
+    width: initial;
+  }
+}
+
+.recent-popular-post-buttons .nav-link {
+  font-size: 14px !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+  padding: 0 60px 10px !important;
+  border-radius: 0px;
+}
+
+.recent-popular-post-buttons .nav-link.active {
+  font-size: 14px !important;
+  font-weight: 700;
+  color: #175153 !important;
+  background: none;
+  border-bottom: 5px solid var(--primary);
+}
+
+.popular-post {
+  position: relative;
+  background: #ffffff;
+  margin-top: -17px;
+  padding: 23px 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 0px 10px 10px 10px;
+}
+
+.popular-post-card {
+  padding: 7px 0;
+}
+
+.popular-post-card-img {
+  max-width: 60px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.popular-post-card-img img {
+  max-width: 60px;
+  width: 100%;
+  min-height: 60px;
+  max-height: 60px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.popular-post-card-content a {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #175153;
+  margin-bottom: 5px;
+}
+
+.popular-post-card-content p {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 0;
+}
+
+/* Blog Post Section CSS End */
+
+/* ============***=============
+Blog Details Page CSS
+============***============= */
+
+/* Blog Details Section CSS Start */
+
+.blog-details-wrapper {
+  padding-top: 130px;
+}
+
+.blog-bredcrumb p {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.blog-bredcrumb p span {
+  font-weight: 700;
+}
+
+.blog-post-details {
+  padding-top: 30px;
+}
+
+.blog-post-details h6 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  color: var(--dark);
+}
+
+.blog-post-list li {
+  list-style: disc;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  color: var(--dark);
+}
+
+.blog-post-list {
+  padding-left: 18px;
+  padding-bottom: 10px;
+}
+
+.may-like-post-wrapper {
+  padding-top: 30px;
+}
+
+.may-like-post-wrapper h4,
+.may-like-post-card-content h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: var(--secondary);
+}
+
+.may-like-post-card {
+  padding-top: 20px;
+}
+
+.may-like-post-card-img img {
+  max-width: 100%;
+  width: 100%;
+  min-height: 180px;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.may-like-post-card-content h4 {
+  text-align: left;
+  padding-top: 10px;
+}
+
+.blog-details-wrapper .recent-popular-post-wrapper {
+  padding-top: 0px !important;
+}
+
+.user-comments-container {
+  padding-top: 60px;
+}
+
+.user-comments-container h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: var(--secondary);
+  margin-bottom: 40px;
+}
+
+.user-comment-box {
+  background: var(--light);
+  padding: 10px 20px 30px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+}
+
+.comment-user-img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.comment-user-img img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.comment-user-info h6 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #276e9b;
+  margin-bottom: 2px;
+}
+
+.comment-user-info span {
+  font-size: 14px;
+  line-height: 20px;
+  color: #666666;
+}
+
+.reply-btn a {
+  font-size: 14px;
+  color: #666666;
+}
+
+.user-comment-box p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark);
+  padding-top: 20px;
+}
+
+.comment-form-container {
+  padding-top: 40px;
+}
+
+.comment-form-container h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: var(--secondary);
+  margin-bottom: 25px;
+}
+
+.inpur-form-field {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.inpur-form-field input {
+  width: 100%;
+  background: #ffffff;
+  padding: 8px 20px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+}
+
+.input-form-field textarea {
+  width: 100%;
+  background: #ffffff;
+  padding: 8px 20px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+}
+
+.inpur-form-field input:focus,
+.inpur-form-field textarea:focus {
+  outline: 0;
+}
+
+.input-btn-field input {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--primary);
+  background: none;
+  border: none;
+  border-bottom: 2px solid var(--primary);
+}
+
+/* Blog Details Section CSS End */
+
+/* Responsive CSS */
+
+/* Min Width 768px and Max Width 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .popular-post {
+    margin-top: -24px;
+  }
+}
+
+/* Min Width 300px and Max Width 767px */
+@media (min-width: 300px) and (max-width: 767px) {
+  .blog-hero-content {
+    padding-top: 30px;
+  }
+
+  .blog-hero-content h2 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+
+  .blog-hero-content p {
+    font-size: 12px;
+  }
+
+  .blog-hero-wrapper {
+    padding: 0 0 300px;
+  }
+
+  .blog-post-title h4,
+  .may-like-post-wrapper h4,
+  .may-like-post-card-content h4,
+  .user-comments-container h4,
+  .comment-form-container h4 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .blog-post-img {
+    padding: 10px 0;
+  }
+
+  .recent-popular-post-wrapper {
+    padding-left: 0px;
+  }
+
+  .recent-popular-post-buttons .nav-link {
+    padding: 0 55px 10px !important;
+  }
+
+  .popular-post {
+    margin-top: -23px;
+  }
+
+  .blog-details-wrapper .recent-popular-post-wrapper {
+    padding-top: 30px !important;
+  }
+}

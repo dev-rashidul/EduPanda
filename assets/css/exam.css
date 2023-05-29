@@ -1,0 +1,150 @@
+/* Exam Accordion Section CSS Start */
+
+.exam-accordion-wrapper {
+  padding-top: 140px;
+}
+
+.accordion-item {
+  background: var(--light);
+  margin-bottom: 20px;
+  border: 1px solid #dcdcdc !important;
+  border-radius: 6px !important;
+}
+
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  background: transparent;
+  border: #ffffff !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+}
+
+.accordion-button:not(.collapsed) {
+  border-bottom: 1px solid #dcdcdc !important;
+  border-radius: 0 0 6px 6px;
+}
+
+.accordion-button:focus {
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+
+.accordion-button::after {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.accordion-button:not(.collapsed)::after {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.accordion-button h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--secondary);
+  margin-bottom: 0;
+}
+
+.accordion-header-info p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  color: var(--dark);
+  margin-top: -5px;
+  margin-bottom: 0;
+}
+
+.accordion-body {
+  background: #f5f5f5;
+  padding: 0 30px 30px;
+}
+
+.exam-card-container {
+  padding-top: 40px;
+}
+
+.exam-card-container h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: var(--secondary);
+}
+
+.exam-card {
+  background: var(--light);
+  margin: 10px 0 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+}
+
+.exam-card-img {
+  max-width: 100px;
+  width: 100%;
+  min-height: 100px;
+  max-height: 100px;
+  height: 100%;
+  margin-right: 16px;
+}
+
+.exam-card-img img {
+  max-width: 100px;
+  width: 100%;
+  min-height: 100px;
+  max-height: 100px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.exam-card-content h5 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: var(--secondary);
+  margin: 0;
+}
+
+.exam-card-content span {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--secondary);
+  margin: 0;
+}
+
+.exam-card-content p {
+  margin-bottom: 10px;
+}
+
+/* Exam Accordion Section CSS End */
+
+/* Responsive CSS */
+
+/* Min Width 300px and Max Width 767px */
+@media (min-width: 300px) and (max-width: 767px) {
+  .exam-card-content h5 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .accordion-button h4 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .accordion-header-info {
+    padding-top: 8px;
+  }
+
+  .accordion-body {
+    padding: 0 10px 30px;
+  }
+}

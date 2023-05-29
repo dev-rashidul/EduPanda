@@ -130,8 +130,14 @@
 .accordion-button::after {
   position: absolute;
   top: 50%;
-  right: 10px;
+  right: 20px;
   transform: translateY(-50%);
+}
+
+.accordion-button:not(.collapsed)::after {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
 }
 
 .accordion-button h4 {
