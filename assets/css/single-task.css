@@ -1,0 +1,37 @@
+/* Single Task Hero Section CSS Start */
+
+.single-task-hero-wrapper {
+  background: url(../images/single-task/single-task-hero-bg.png);
+  background-size: cover;
+  background-repeat: repeat;
+  margin-top: 82px;
+  padding: 80px 0;
+}
+
+.single-task-hero-content h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--light);
+  padding: 10px 0;
+}
+
+.single-task-hero-content p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--light);
+}
+
+.single-task-hero-img {
+  max-width: 100%;
+}
+
+.single-task-hero-img img {
+  width: 100%;
+  min-height: 175px;
+  max-height: 175px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Single Task Hero Section CSS End */

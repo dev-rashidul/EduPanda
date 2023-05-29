@@ -100,7 +100,7 @@ nav.navbar {
   width: 100%;
   background: #1c2538;
   padding: 20px 0;
-  z-index: 999;
+  z-index: 11;
 }
 
 .navbar.sticky {
@@ -111,7 +111,7 @@ nav.navbar {
   width: 100%;
   -webkit-animation: sticky 1.2s;
   animation: sticky 1.2s;
-  z-index: 999;
+  z-index: 99;
 }
 
 @keyframes sticky {
@@ -415,6 +415,225 @@ nav.navbar {
 
 /* Footer Section CSS End */
 
+/* 
+===========***============
+Register CSS
+===========***============ */
+
+#body-overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  z-index: 9;
+  transition: display 0.3s ease-in-out;
+}
+
+#body-overlay.active {
+  display: block;
+}
+
+#register_sidebar {
+  position: fixed;
+  top: 0;
+  right: -200%;
+  transition: right 0.3s ease-in-out;
+  z-index: 999;
+}
+
+#register_sidebar.active {
+  right: 0;
+}
+
+.register-wrapper {
+  max-width: 480px;
+  width: 100%;
+  height: 100vh;
+  background: var(--light);
+  padding: 50px 90px 0;
+}
+
+#cross_btn i,
+#cross_btn2 {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.register-content {
+  padding-top: 70px;
+}
+
+.register-content h2,
+.login-content h2 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 39px;
+  color: var(--secondary);
+}
+
+.register-content p,
+.login-content p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark);
+  padding-top: 10px;
+}
+
+.register-form {
+  padding-top: 30px;
+}
+
+.form-input-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-input-field label {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark);
+  padding-bottom: 10px;
+}
+
+.form-input-field input {
+  width: 100%;
+  background: var(--light);
+  padding: 12px 20px;
+  border: 1px solid #d1d1d1;
+}
+
+.form-input-field input:focus {
+  outline: 0;
+}
+
+.form-checkbox label {
+  font-size: 14px;
+  color: var(--dark);
+  line-height: 15px;
+  margin-left: 10px;
+}
+
+.form-checkbox label span {
+  position: relative;
+  color: var(--primary);
+}
+
+.form-submit-btn {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--light);
+  background: var(--primary);
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+}
+
+.register-form ::placeholder {
+  font-size: 14px;
+  color: #999999;
+}
+
+/* ===========***===========
+Login CSS
+===========***=========== */
+
+#login_sidebar {
+  position: fixed;
+  top: 0;
+  right: -200%;
+  transition: right 0.3s ease-in-out;
+  z-index: 999;
+}
+
+#login_sidebar.active {
+  right: 0;
+}
+
+.login-content {
+  padding-top: 150px;
+}
+
+.login-form {
+  padding-top: 15px;
+}
+
+.login-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: var(--light);
+  padding: 12px 20px;
+  border: 1px solid #d1d1d1;
+}
+
+.login-input input {
+  width: 100%;
+  background: transparent;
+  padding-left: 15px;
+  border: none;
+}
+
+.pass-input {
+  border-top: none;
+}
+
+.login-input i {
+  color: #e5e5e5;
+}
+
+.login-input input:focus {
+  outline: 0;
+}
+
+.forgot-password {
+  padding: 20px 0 15px;
+  border-bottom: 1px dashed #cccccc;
+}
+
+.forgot-password a {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark);
+  border-bottom: 1px solid var(--dark);
+}
+
+.login-check {
+  padding-top: 25px;
+}
+
+.login-checkbox label {
+  font-size: 14px;
+  color: var(--dark);
+  padding-left: 10px;
+}
+
+.have-account {
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.have-account p {
+  font-size: 14px;
+  color: #c2c2c2;
+  margin-bottom: 6px;
+}
+
+.have-account a {
+  font-size: 14px;
+  color: var(--primary);
+}
+
+.login-input ::placeholder {
+  font-size: 14px;
+  color: #999999;
+}
+
 /* Responsive CSS */
 
 /* Min Width 1400px and Max Width 1599px */
@@ -465,5 +684,29 @@ nav.navbar {
 
   .pt-30 {
     padding-top: 0;
+  }
+
+  .register-wrapper {
+    padding: 10px 20px 0;
+  }
+
+  .register-content {
+    padding-top: 20px;
+  }
+
+  .register-content p {
+    padding-top: 0;
+  }
+
+  .register-form {
+    padding-top: 0px;
+  }
+
+  .form-input-field {
+    margin-bottom: 10px;
+  }
+
+  .form-input-field input {
+    padding: 10px 20px;
   }
 }

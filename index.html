@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/home.css" />
   </head>
   <body>
+    <div id="body-overlay"></div>
     <!-- Header Part HTML Start -->
 
     <header>
@@ -149,10 +150,152 @@
                     </div>
                   </div>
                   <li>
-                    <a class="nav-link register-btn" href="#">Rejestracja</a>
+                    <div id="register_btn">
+                      <a class="nav-link register-btn">Rejestracja</a>
+                    </div>
+                    <!-- Register Form -->
+
+                    <div id="Register">
+                      <div id="register_sidebar">
+                        <div class="register-wrapper">
+                          <div id="cross_btn" class="float-end">
+                            <i class="fa-solid fa-xmark"></i>
+                          </div>
+                          <div class="register-content">
+                            <h2>Zarejestruj się</h2>
+                            <p>
+                              Wprowadź swoje dane w poniższych polach, aby
+                              zarejestrować się na platformę Edupanda.
+                            </p>
+                            <div class="register-form-wrapper">
+                              <form>
+                                <div class="register-form">
+                                  <div class="form-input-field">
+                                    <label>Imię</label>
+                                    <input
+                                      type="text"
+                                      placeholder="Alex"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="form-input-field">
+                                    <label>Nazwisko</label>
+                                    <input
+                                      type="text"
+                                      placeholder="Karpenko"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="form-input-field">
+                                    <label>Email:</label>
+                                    <input
+                                      type="email"
+                                      placeholder="email@gmail.com"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="form-input-field">
+                                    <label>Hasło</label>
+                                    <input type="password" required />
+                                  </div>
+                                  <div class="form-input-field">
+                                    <label>Powtórz hasło</label>
+                                    <input type="password" required />
+                                  </div>
+                                  <div
+                                    class="form-btn-filed d-flex justify-content-between align-items-center"
+                                  >
+                                    <div
+                                      class="form-checkbox d-flex align-items-center"
+                                    >
+                                      <input type="checkbox" />
+                                      <label
+                                        >I agree with <br />
+                                        <span>terms and conditins.</span></label
+                                      >
+                                    </div>
+                                    <div>
+                                      <input
+                                        class="form-submit-btn"
+                                        type="submit"
+                                        value="Zarejestruj się"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </li>
                   <li class="ms-xl-4">
-                    <a class="nav-link login-btn" href="#">Logowanie</a>
+                    <div id="login_btn">
+                      <a class="nav-link login-btn">Logowanie</a>
+                    </div>
+                    <!-- Login Form -->
+
+                    <div id="Register">
+                      <div id="login_sidebar">
+                        <div class="register-wrapper position-relative">
+                          <div id="cross_btn2" class="float-end">
+                            <i class="fa-solid fa-xmark"></i>
+                          </div>
+                          <div class="login-content">
+                            <h2>Zaloguj się</h2>
+                            <p>
+                              Wprowadź swoje dane w poniższych polach, aby wejść
+                              na platformę Edupanda.
+                            </p>
+                            <div class="login-form-container">
+                              <form>
+                                <div class="login-form">
+                                  <div class="login-input">
+                                    <i class="fa-solid fa-user"></i>
+                                    <input
+                                      type="text"
+                                      placeholder="Login"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="login-input pass-input">
+                                    <i class="fa-solid fa-key"></i>
+                                    <input
+                                      type="password"
+                                      placeholder="Hasło"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="forgot-password">
+                                    <a href="#">Zapomniałeś hasła?</a>
+                                  </div>
+                                  <div
+                                    class="login-check d-flex justify-content-between align-items-center"
+                                  >
+                                    <div class="login-checkbox">
+                                      <input type="checkbox" />
+                                      <label>Zapamiętaj mnie</label>
+                                    </div>
+                                    <div class="login-submit-btn">
+                                      <input
+                                        class="form-submit-btn"
+                                        type="submit"
+                                        value="Logowanie"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                          <div class="have-account">
+                            <p>Don’t have an account yet?</p>
+                            <a href="#">Register here</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </li>
                 </div>
               </div>
