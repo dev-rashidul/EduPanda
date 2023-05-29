@@ -1,0 +1,75 @@
+/* Todo List Section CSS Start */
+
+.todo-list-wrapper {
+  padding: 120px 0 80px;
+}
+
+.todo-list-top p {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--dark);
+}
+
+.todo-list-top p span {
+  font-weight: 700;
+}
+
+.todo-list-top h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #323a4b;
+}
+
+.todo-list-card {
+  margin-top: 25px;
+  background: var(--light);
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+}
+
+.todo-list-card-img {
+  width: 100%;
+  padding: 40px 25px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.todo-list-card-img img {
+  width: 100%;
+}
+
+.todo-list-card-content {
+  padding: 15px 20px 30px;
+}
+
+.todo-list-card-content p {
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--dark);
+  margin-bottom: 0;
+}
+
+.todo-card-btn {
+  padding-top: 25px;
+}
+
+.todo-card-btn a {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--light);
+  background: var(--primary);
+  padding: 12px 40px;
+  border-radius: 4px;
+}
+
+/* Todo List Section CSS End */
+
+/* Responsive CSS */
+
+/* Min Width 300px and Max Width 767px */
+@media (min-width: 300px) and (max-width: 767px) {
+  .todo-list-top h4 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
