@@ -344,12 +344,13 @@
                   </h5>
                 </div>
               </div>
-              <div class="theory-images d-flex align-items-start py-4">
+              <div class="theory-images d-xl-flex align-items-start py-4">
                 <img
                   src="assets/images/theory/theory-hero-img1.png"
                   alt="theory-hero-img1"
                 />
                 <img
+                  class="pt-4 pt-xl-0"
                   src="assets/images/theory/theory-hero-img2.png"
                   alt="theory-hero-img2"
                 />
@@ -382,6 +383,300 @@
       </section>
 
       <!-- Theory Hero Section HTML End -->
+
+      <!-- Example 1 Section HTML Start -->
+
+      <section id="Example1">
+        <div class="example1-wrapper">
+          <div class="container">
+            <div class="example1-container">
+              <div class="example1-content">
+                <div class="example-title">
+                  <h4>Przykład 1</h4>
+                </div>
+                <h6>Treść</h6>
+                <p>Rozwiązać problem brzegowy z danymi jak poniżej</p>
+                <img
+                  src="assets/images/theory/example1-img1.png"
+                  alt="example1-img1"
+                />
+                <p>Dzieląc przedział na N=4 elementy</p>
+                <h6>Rozwiązanie</h6>
+                <p>Długość pojedynczego elementu:</p>
+                <img
+                  src="assets/images/theory/example1-img2.png"
+                  alt="example1-img2"
+                />
+                <p>Położenie poszczególnych węzłów</p>
+                <img
+                  src="assets/images/theory/example1-img3.png"
+                  alt="example1-img3"
+                />
+                <p>Zamieniamy równanie korzystając ze wzorów różnicowych:</p>
+                <img
+                  src="assets/images/theory/example1-img4.png"
+                  alt="example1-img4"
+                />
+                <p>
+                  Dla każdego węzła zapisujemy równanie różnicowe zgodnie z
+                  powyższym wzorem, pomocniczo zapisujemy wartośći x dla
+                  poszczególnych węzłów:
+                </p>
+                <img
+                  src="assets/images/theory/example1-img5.png"
+                  alt="example1-img5"
+                />
+                <p>
+                  Uwzględniamy warunki brzegowe, również zamieniając je na wzory
+                  różnicowe
+                </p>
+                <img
+                  src="assets/images/theory/example1-img6.png"
+                  alt="example1-img6"
+                />
+                <div class="d-flex align-items-start">
+                  <p>Zapisujemy powyższe równania w postaci macierzowej</p>
+                  <img
+                    class="m-0"
+                    src="assets/images/theory/example1-img7.png"
+                    alt="example1-img7"
+                  />
+                </div>
+                <img
+                  src="assets/images/theory/example1-img8.png"
+                  alt="example1-img8"
+                />
+                <p>
+                  I ostatecznie rozwiązanie (w tym przypadku uzyskane w
+                  programie Mathcad):
+                </p>
+                <img
+                  src="assets/images/theory/example1-img9.png"
+                  alt="example1-img9"
+                />
+                <div class="d-flex align-items-start">
+                  <p>
+                    W praktyce interesuje nas jedynie pierwsze 5 wyników,
+                    ponieważ ostatni znajduje się de facto poza przedziałem
+                    badanym
+                  </p>
+                  <img
+                    class="m-0"
+                    src="assets/images/theory/example1-img10.png"
+                    alt="example1-img10"
+                  />
+                </div>
+                <p>
+                  Rozwiązanie analitycznego tego równania uzyskane klasycznymi
+                  metodami rozwiązywania równań różniczkowych:
+                </p>
+                <img
+                  src="assets/images/theory/example1-img11.png"
+                  alt="example1-img11"
+                />
+                <p>
+                  W tabeli zestawiono wartości wraz z błędami dla poszczególnych
+                  punktów
+                </p>
+                <img
+                  src="assets/images/theory/example1-img12.png"
+                  alt="example1-img12"
+                />
+                <p>
+                  Ddybyśmy podzielili przedział na więcej elementów dokładność
+                  była by oczywiście większa, natomiast w takim przypadku
+                  konieczne byłoby użycie programów obliczeniowych typu Matlab
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Example 1 Section HTML End -->
+
+      <!-- Difference Method Section HTML Start -->
+
+      <section id="Difference-method">
+        <div class="difference-method-wrapper">
+          <div class="container">
+            <div class="difference-method-container">
+              <div class="difference-method-content">
+                <h4>
+                  Rozwiązywanie belek zginanych przy pomocy metody różnic
+                  skończonych
+                </h4>
+                <p>
+                  Tok postępowania jest niemal identyczny jak w przypadku
+                  rozwiązywania równań różniczkowych, ponieważ wychodzimy od
+                  zależności pomiędzy przemieszczeniem i obciążeniem belki
+                  prostej:
+                </p>
+                <img
+                  src="assets/images/theory/difference-method-img1.png"
+                  alt="difference-method-img1"
+                />
+                <p>Który w zapisie różnicowym przyjmie postać:</p>
+                <img
+                  src="assets/images/theory/difference-method-img2.png"
+                  alt="difference-method-img2"
+                />
+                <p>Lub w prostszym zapisie:</p>
+                <img
+                  src="assets/images/theory/difference-method-img3.png"
+                  alt="difference-method-img3"
+                />
+                <p>
+                  Problemy zaczynają się w momencie kiedy belka nie jest
+                  obciążona w sposób ciągły, ale np. poprzez przyłożenie do niej
+                  siły punktowej, obciążenia trapezowego itd., lub kiedy jej
+                  sztywność jest zmienna na długości belki. W takich przypadkach
+                  będziemy musieli sprowadzić obciążenie do obciążenia
+                  ciągłego.Dodatkowo po obliczeniu wartości ugięcia belki w
+                  poszczególnych punktach skorzystamy ze znanych zależności
+                  które pozwolą nam obliczyć siłę tnącą oraz moment zginający:
+                </p>
+                <img
+                  src="assets/images/theory/difference-method-img4.png"
+                  alt="difference-method-img4"
+                />
+                <h6>Warunki brzegowe dla belek</h6>
+                <p>
+                  Warunki brzegowe będą dla belki wynikały ze sposobu podparcia
+                  jak przedstawiono poniżej
+                </p>
+                <img
+                  src="assets/images/theory/difference-method-img5.png"
+                  alt="difference-method-img5"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Difference Method Section HTML End -->
+
+      <!-- Example 2 Section HTML Start -->
+
+      <section id="Example2">
+        <div class="example2-wrapper">
+          <div class="container">
+            <div class="example2-container">
+              <div class="example2-content">
+                <div class="example-title">
+                  <h4>Przykład 2</h4>
+                </div>
+                <h6>Treść</h6>
+                <div class="d-flex align-items-start">
+                  <p>Rozwiązać podaną belkę korzystając z MRS,</p>
+                  <img
+                    class="m-0"
+                    src="assets/images/theory/example2-img1.png"
+                    alt="example2-img1"
+                  />
+                </div>
+                <img
+                  src="assets/images/theory/example2-img2.png"
+                  alt="example2-img2"
+                />
+                <div>
+                  <h6>Rozwiązanie</h6>
+                  <p>Zapisujemy równanie różnicowe dla punktów i=1,2,3,4</p>
+                  <img
+                    src="assets/images/theory/example2-img3.png"
+                    alt="example2-img3"
+                  />
+                  <p>
+                    Następnie zapisujemy warunki brzegowe, w x=0, i=0
+                    utwierdzenie pełne, w x=4, i=4 swobodny koniec
+                  </p>
+                  <img
+                    src="assets/images/theory/example2-img4.png"
+                    alt="example2-img4"
+                  />
+                  <p>
+                    Podobnie jak w poprzednim przykładzie zapisujemy całość w
+                    postaci macierzowej i rozwiązujemy przy pomocy programu
+                    obliczeniowego
+                  </p>
+                  <img
+                    src="assets/images/theory/example2-img5.png"
+                    alt="example2-img5"
+                  />
+                  <p>
+                    Mając wartości ugięcia możemy obliczyć np. wartość momentu
+                    gnącego w utwierdzeniu
+                  </p>
+                  <img
+                    src="assets/images/theory/example2-img6.png"
+                    alt="example2-img6"
+                  />
+                  <p>
+                    Akurat ta belka jest bardzo typowa, możemy więc z łatwością
+                    znaleźć analityczne rozwiązanie i porównać je z naszym,
+                    numerycznym
+                  </p>
+                  <img
+                    src="assets/images/theory/example2-img7.png"
+                    alt="example2-img7"
+                  />
+                  <p>
+                    Jak widać rozwiązanie dla momentu zginającego jest
+                    identyczne, nieco bardziej interesująco ma się sprawa z
+                    ugięciem końca belki:
+                  </p>
+                  <img
+                    src="assets/images/theory/example2-img8.png"
+                    alt="example2-img8"
+                  />
+                  <p>
+                    Jak widać w tym przypadku błąd względny wynosi ponad 6%,
+                    podobnie jak poprzednio wyższe n sprawiłoby że ten błąd
+                    byłby mniejszy.
+                  </p>
+                </div>
+                <div>
+                  <h6>Bonus</h6>
+                  <p>
+                    W powyższym przykładzie pominęliśmy wartość siły tnącej w
+                    utwierdzeniu. Jak łatwo zauważyć stwarza ona pewien kłopot,
+                    ponieważ wzór:
+                  </p>
+                  <img
+                    src="assets/images/theory/example2-img9.png"
+                    alt="example2-img9"
+                  />
+                  <p>
+                    Zawiera wartość przemieszczenia V−2 której nie obliczyliśmy.
+                    Jeżeli jednak w zadaniu mielibyśmy za zadanie obliczyć
+                    wartość siły tnącej musielibyśmy dodatkow zapisać wzór
+                    różnicowy dla i=0, co zilustrowano poniżej
+                  </p>
+                  <img
+                    src="assets/images/theory/example2-img10.png"
+                    alt="example2-img10"
+                  />
+                  <p>
+                    Oczywiście pozostałe wartości przemieszczenia nie zmieniły
+                    się, ale mając obliczone V−2 możemy zweryfikować wartość
+                    siły tnącej w utwierdzeniu:
+                  </p>
+                  <img
+                    src="assets/images/theory/example2-img11.png"
+                    alt="example2-img11"
+                  />
+                  <p>
+                    Jak widać wynik jest idelanie zgodny z wartością analityczną
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Example 2 Section HTML End -->
     </main>
 
     <!-- Main Part HTML End -->

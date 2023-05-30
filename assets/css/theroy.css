@@ -50,3 +50,70 @@
 }
 
 /* Theory Hero Section CSS End */
+
+/* Example 1 Section CSS Start */
+
+.example1-container,
+.example2-container {
+  margin-top: 25px;
+  padding: 30px 30px 15px;
+  background: var(--light);
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+}
+
+.difference-method-container {
+  margin-top: 25px;
+  padding: 30px 0 15px;
+  background: var(--light);
+}
+
+.example-title h4,
+.difference-method-content h4 {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--secondary);
+}
+
+.example1-content h6,
+.difference-method-content h6,
+.example2-content h6 {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--secondary);
+  padding-top: 15px;
+}
+
+.example1-content img,
+.difference-method-content img,
+.example2-content img {
+  margin: 20px 0 30px;
+}
+
+/* Example 1 Section CSS End */
+
+/* Responsive CSS */
+
+/* Min Width 300px and Max Width 767px */
+@media (min-width: 300px) and (max-width: 767px) {
+  .theory-top-method h4,
+  .example-title h4,
+  .difference-method-content h4 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .theory-top-method h5,
+  .example1-content h6,
+  .difference-method-content h6,
+  .example2-content h6 {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 600;
+  }
+
+  .example1-container,
+  .example2-container {
+    padding: 10px 10px 0;
+  }
+}
