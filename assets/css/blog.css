@@ -413,4 +413,12 @@ Blog Details Page CSS
   .blog-details-wrapper .recent-popular-post-wrapper {
     padding-top: 30px !important;
   }
+
+  .blog-details-wrapper {
+    padding-top: 100px;
+  }
+
+  .blog-post-details {
+    padding-top: 0px;
+  }
 }

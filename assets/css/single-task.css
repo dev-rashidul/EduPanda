@@ -35,3 +35,186 @@
 }
 
 /* Single Task Hero Section CSS End */
+
+/* Solution Section CSS Start */
+
+.solution-wrapper {
+  padding-top: 30px;
+}
+
+.solution-content p {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--dark);
+}
+
+.solution-content p span {
+  font-weight: 700;
+}
+
+.solution-content h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #323a4b;
+}
+
+.solution-video-container {
+  padding: 60px 0;
+  margin-top: 25px;
+  background: var(--light);
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+}
+
+.solution-video {
+  position: relative;
+  max-width: 890px;
+  width: 100%;
+  margin: auto;
+  z-index: 2;
+}
+
+.solution-video iframe {
+  width: 100%;
+  min-height: 490px;
+  max-height: 490px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.solution-shape {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+/* Solution Section CSS End */
+
+/* Solution Method1 Section CSS Start */
+
+.solution-method {
+  padding: 30px;
+  margin-top: 35px;
+  background: var(--light);
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+}
+
+.solution-method-content h6 {
+  font-size: 18px;
+  color: var(--secondary);
+  margin-bottom: 5px;
+}
+
+.solution-method-content p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark);
+}
+
+.solution-method1-img1 {
+  padding: 10px 0 40px;
+}
+
+.solution-method1-img2 {
+  padding-bottom: 20px;
+}
+
+.solution-method1-img3 {
+  padding-bottom: 100px;
+}
+
+.solution-method1-img4 {
+  padding-bottom: 20px;
+}
+
+.solution-method1-img5 {
+  padding-bottom: 100px;
+}
+
+.solution-method1-img6 {
+  padding-bottom: 50px;
+}
+
+.solution-method1-img7 {
+  padding-bottom: 100px;
+}
+
+.solution-method1-img8 {
+  padding-bottom: 20px;
+}
+
+.solution-method2-img1 {
+  padding: 20px 0 50px;
+}
+
+.solution-method2-img2 {
+  padding-bottom: 30px;
+}
+
+.solution-method2-img3 {
+  padding: 20px 0 120px;
+}
+
+.solution-method2-video-container {
+  background: url(../images/single-task/solution-mthod2-video-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.solution-method2-video {
+  position: relative;
+  max-width: 890px;
+  width: 100%;
+  margin: auto;
+  z-index: 2;
+}
+
+.solution-method2-video iframe {
+  width: 100%;
+  min-height: 490px;
+  max-height: 490px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.single-task-buttons {
+  padding-top: 30px;
+}
+
+.single-task-buttons .outline-btn {
+  color: var(--primary);
+}
+
+/* Solution Method1 Section CSS End */
+
+/* Responsive CSS */
+
+/* Min Width 300px and Max Width 767px */
+@media (min-width: 300px) and (max-width: 767px) {
+  .single-task-hero-wrapper {
+    padding: 30px 0 50px;
+  }
+
+  .solution-video-container,
+  .solution-method2-video-container {
+    padding: 20px 10px;
+  }
+
+  .solution-video iframe,
+  .solution-method2-video iframe {
+    min-height: 270px;
+    max-height: 270px;
+    height: 100%;
+  }
+
+  .solution-method {
+    padding: 10px;
+  }
+}

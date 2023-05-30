@@ -642,6 +642,29 @@ Login CSS
 
 /* Min Width 1200px and Max Width 1399px */
 @media (min-width: 1200px) and (max-width: 1399px) {
+  .register-wrapper {
+    padding: 20px 40px 0;
+  }
+
+  .register-content {
+    padding-top: 50px;
+  }
+
+  .register-content p {
+    padding-top: 0;
+  }
+
+  .register-form {
+    padding-top: 0px;
+  }
+
+  .form-input-field {
+    margin-bottom: 15px;
+  }
+
+  .form-input-field input {
+    padding: 10px 20px;
+  }
 }
 
 /* Min Width 992px and Max Width 1199px */
