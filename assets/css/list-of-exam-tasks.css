@@ -1,0 +1,117 @@
+/* Exam List Section CSS Start */
+
+.exam-list-wrapper {
+  padding-top: 110px;
+}
+
+.exam-list-top {
+  padding-bottom: 25px;
+}
+
+.exam-list-top p {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--dark);
+}
+
+.exam-list-top p span {
+  font-weight: 700;
+}
+
+.exam-list-top h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #323a4b;
+}
+
+.exam-card-container {
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+}
+
+.exam-card-top {
+  padding: 10px 25px;
+  background: var(--light);
+  border-bottom: 1px solid #dcdcdc;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.exam-card-top h6 {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--seconday);
+}
+
+.exam-card-top p {
+  font-size: 14px;
+  color: var(--dark);
+  margin-bottom: 0;
+}
+
+.exam-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 30px 80px;
+  text-align: center;
+  border-right: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.exam-card-img {
+  padding-bottom: 70px;
+}
+
+.exam-card-last .exam-card-img {
+  padding-bottom: 166px;
+}
+
+.exam-card-btn {
+  width: 54%;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.exam-card-btn a {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--light);
+  background: var(--primary);
+  padding: 10px 16px;
+  border-radius: 4px;
+}
+
+.exam-card-btn a.disabled {
+  color: var(--light);
+  background: #cbcbcb;
+}
+
+/* Exam List Section CSS End */
+
+/* Responsive CSS */
+
+/* Min Width 1200px and Max Width 1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .exam-card-last .exam-card-img {
+    padding-bottom: 230px;
+  }
+}
+
+/* Min Width 300px and Max Width 767px */
+@media (min-width: 300px) and (max-width: 767px) {
+  .exam-card-container {
+    margin: 0;
+  }
+
+  .exam-card {
+    padding: 30px 40px;
+  }
+
+  .exam-card-btn {
+    width: 77%;
+  }
+}

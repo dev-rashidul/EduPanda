@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduPanda - Theroy</title>
+
+    <!-- Font Awesome CDN for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="assets/css/common.css" />
+
+    <!-- Theroy Page CSS -->
+    <link rel="stylesheet" href="assets/css/theroy.css" />
+  </head>
+  <body>
+    <div id="body-overlay"></div>
+    <!-- Header Part HTML Start -->
+
+    <header>
+      <!-- Navigation Section HTML Start -->
+
+      <section id="Header">
+        <nav class="navbar navbar-expand-xl">
+          <div class="container">
+            <a class="logo" href="index.html"
+              ><img src="assets/images/common/logo.svg" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="toggler-icon top-bar"></span>
+              <span class="toggler-icon middle-bar"></span>
+              <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div
+                class="navbar-wrapper w-100 d-xl-flex justify-content-between"
+              >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-xl-4">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Kursy online
+
+                      <i class="dropdown_icon fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Locker six fluke blossom</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Measured pay dock arrgh</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Poop the blossom eye</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Korepetycje i projecty
+                      <i class="dropdown_icon fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Locker six fluke blossom</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Measured pay dock arrgh</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Poop the blossom eye</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Wzory, wykresy i tablice </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Egzaminy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sklep</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                </ul>
+                <div class="nav-buttons d-xl-flex align-items-center">
+                  <div class="country-dropdown">
+                    <div class="wrapper">
+                      <img
+                        class="selected"
+                        src="assets/images/common/poland.svg"
+                        alt="poland"
+                      />
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="country-list">
+                      <div class="country-item">
+                        <img
+                          src="assets/images/common/britain.svg"
+                          alt="britain"
+                        />
+                      </div>
+                      <div class="country-item">
+                        <img
+                          src="assets/images/common/germany.svg"
+                          alt="germany"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <li>
+                    <div id="register_btn">
+                      <a class="nav-link register-btn">Rejestracja</a>
+                    </div>
+                    <!-- Register Form -->
+
+                    <div id="Register">
+                      <div id="register_sidebar">
+                        <div class="register-wrapper">
+                          <div id="cross_btn" class="float-end">
+                            <i class="fa-solid fa-xmark"></i>
+                          </div>
+                          <div class="register-content">
+                            <h2>Zarejestruj się</h2>
+                            <p>
+                              Wprowadź swoje dane w poniższych polach, aby
+                              zarejestrować się na platformę Edupanda.
+                            </p>
+                            <div class="register-form-wrapper">
+                              <form>
+                                <div class="register-form">
+                                  <div class="form-input-field">
+                                    <label>Imię</label>
+                                    <input
+                                      type="text"
+                                      placeholder="Alex"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="form-input-field">
+                                    <label>Nazwisko</label>
+                                    <input
+                                      type="text"
+                                      placeholder="Karpenko"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="form-input-field">
+                                    <label>Email:</label>
+                                    <input
+                                      type="email"
+                                      placeholder="email@gmail.com"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="form-input-field">
+                                    <label>Hasło</label>
+                                    <input type="password" required />
+                                  </div>
+                                  <div class="form-input-field">
+                                    <label>Powtórz hasło</label>
+                                    <input type="password" required />
+                                  </div>
+                                  <div
+                                    class="form-btn-filed d-flex justify-content-between align-items-center"
+                                  >
+                                    <div
+                                      class="form-checkbox d-flex align-items-center"
+                                    >
+                                      <input type="checkbox" />
+                                      <label
+                                        >I agree with <br />
+                                        <span>terms and conditins.</span></label
+                                      >
+                                    </div>
+                                    <div>
+                                      <input
+                                        class="form-submit-btn"
+                                        type="submit"
+                                        value="Zarejestruj się"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="ms-xl-4">
+                    <div id="login_btn">
+                      <a class="nav-link login-btn">Logowanie</a>
+                    </div>
+                    <!-- Login Form -->
+
+                    <div id="Register">
+                      <div id="login_sidebar">
+                        <div class="register-wrapper position-relative">
+                          <div id="cross_btn2" class="float-end">
+                            <i class="fa-solid fa-xmark"></i>
+                          </div>
+                          <div class="login-content">
+                            <h2>Zaloguj się</h2>
+                            <p>
+                              Wprowadź swoje dane w poniższych polach, aby wejść
+                              na platformę Edupanda.
+                            </p>
+                            <div class="login-form-container">
+                              <form>
+                                <div class="login-form">
+                                  <div class="login-input">
+                                    <i class="fa-solid fa-user"></i>
+                                    <input
+                                      type="text"
+                                      placeholder="Login"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="login-input pass-input">
+                                    <i class="fa-solid fa-key"></i>
+                                    <input
+                                      type="password"
+                                      placeholder="Hasło"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="forgot-password">
+                                    <a href="#">Zapomniałeś hasła?</a>
+                                  </div>
+                                  <div
+                                    class="login-check d-flex justify-content-between align-items-center"
+                                  >
+                                    <div class="login-checkbox">
+                                      <input type="checkbox" />
+                                      <label>Zapamiętaj mnie</label>
+                                    </div>
+                                    <div class="login-submit-btn">
+                                      <input
+                                        class="form-submit-btn"
+                                        type="submit"
+                                        value="Logowanie"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                          <div class="have-account">
+                            <p>Don’t have an account yet?</p>
+                            <a href="#">Register here</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <!-- Navigation Section HTML End -->
+    </header>
+
+    <!-- Header Part HTML End -->
+
+    <!-- Main Part HTML Start -->
+
+    <main>
+      <!-- Theory Hero Section HTML Start -->
+
+      <section id="Theory-hero">
+        <div class="theory-hero-wrapper">
+          <div class="container">
+            <div class="theory-top">
+              <div class="theory-top-content">
+                <p>
+                  Edupanda » Metody numeryczne »
+                  <span>Metoda różnić skończonych (MRS)</span>
+                </p>
+                <div class="theory-top-method">
+                  <h4>Metoda różnic skończonych (MRS)</h4>
+                  <p>
+                    Metoda polegająca na przybliżeniu pochodnej funkcji przez
+                    odpowiednie wzory różnicowe. W poniższych opracowaniu
+                    skupimy się na dwóch prostych zastosowaniach metody różnic
+                    skończonych:
+                  </p>
+                  <ol>
+                    <li>Rozwiązywanie równań różniczkowych</li>
+                    <li>Rozwiązywanie belek zginanych</li>
+                  </ol>
+                  <p>
+                    Poszczególne pochodne zamieniamy na wzory różnicowe
+                    korzystając z poniższych wzorów
+                  </p>
+                  <h5>
+                    Centralne wzory różnicowe dla zagadnienia jednowymiarowego
+                  </h5>
+                </div>
+              </div>
+              <div class="theory-images d-flex align-items-start py-4">
+                <img
+                  src="assets/images/theory/theory-hero-img1.png"
+                  alt="theory-hero-img1"
+                />
+                <img
+                  src="assets/images/theory/theory-hero-img2.png"
+                  alt="theory-hero-img2"
+                />
+              </div>
+              <p>gdzie ℎ - długość elementu.</p>
+              <div class="theory-top-method pt-2">
+                <h4>
+                  Rozwiązywanie równań różniczkowych przy pomocy metody różnic
+                  skończonych
+                </h4>
+                <p>Ogólny tok postępowania w tym przypadku</p>
+                <ol>
+                  <li>
+                    Podział badanego przedziału na n elementów o długości h
+                  </li>
+                  <li>
+                    Zastąpienie pochodnych w równaniu odpowiednimi wzorami
+                    różnicowymi
+                  </li>
+                  <li>
+                    Rozpisanie równań różnicowych dla poszczególnych punktów
+                  </li>
+                  <li>Uwzględnienie warunków brzegowych</li>
+                  <li>Rozwiązanie układu równań w postaci macierzowej</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Theory Hero Section HTML End -->
+    </main>
+
+    <!-- Main Part HTML End -->
+
+    <!-- Footer Part HTML Start -->
+
+    <footer id="Footer">
+      <div class="footer-wrapper">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-about text-center">
+              <div class="footer-logo">
+                <img src="assets/images/common/logo.svg" alt="logo" />
+              </div>
+              <div class="d-none d-md-block">
+                <p class="text-white">Copyright © 2018-2023 Edupanda</p>
+                <div class="footer-social">
+                  <a href="#"
+                    ><img
+                      src="assets/images/home/youtube-icon.svg"
+                      alt="youtube-icon"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      src="assets/images/home/facebook-icon.svg"
+                      alt="facebook-icon"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="footer-menu pt-5 pt-md-0">
+              <div class="footer-nav d-md-flex">
+                <div>
+                  <h6>Kursy online</h6>
+                  <ul>
+                    <li><a href="#">Mechanika techniczna</a></li>
+                    <li><a href="#">Wytrzymałość materiałów</a></li>
+                    <li><a href="#">Mechanika budowli</a></li>
+                    <li><a href="#">Mechanika płynów</a></li>
+                  </ul>
+                </div>
+                <div class="pt-30 ps-md-4">
+                  <ul>
+                    <li><a href="#">Metody numeryczne</a></li>
+                    <li><a href="#">Teoria obwodów</a></li>
+                    <li><a href="#">Robot Structural Analysis</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-menu pt-5 pt-lg-0">
+              <div class="footer-nav d-md-flex">
+                <div>
+                  <h6>Korepetycje</h6>
+                  <ul>
+                    <li><a href="#">Elektrotechnika</a></li>
+                    <li><a href="#">Mechanika budowli / konstrukcji</a></li>
+                    <li><a href="#">Mechanika płynów</a></li>
+                  </ul>
+                </div>
+                <div class="pt-30 ps-md-4">
+                  <ul>
+                    <li><a href="#">Mechanika techniczna</a></li>
+                    <li><a href="#">Metody numeryczne / obliczeniowe</a></li>
+                    <li><a href="#">Wytrzymałość Materiałów</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="d-md-none pt-5">
+                <p class="text-white">Copyright © 2018-2023 Edupanda</p>
+                <div class="footer-social">
+                  <a href="#"
+                    ><img
+                      src="assets/images/home/youtube-icon.svg"
+                      alt="youtube-icon"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      src="assets/images/home/facebook-icon.svg"
+                      alt="facebook-icon"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Part HTML End -->
+
+    <!-- Bootstrap JavaScript -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
