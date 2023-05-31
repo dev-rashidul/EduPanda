@@ -1,0 +1,481 @@
+/* Store Hero Section CSS Start */
+
+.store-hero-wrapper {
+  background: url(../images/store/store-hero-bg.png);
+  background-size: cover;
+  background-repeat: repeat;
+  margin-top: 82px;
+  padding: 80px 0 120px;
+  z-index: 1;
+}
+
+.store-hero-content span {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--light);
+}
+
+.store-hero-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 39px;
+  color: var(--light);
+  padding: 10px 0;
+}
+
+.store-hero-content p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--light);
+}
+
+.store-hero-buttons {
+  padding-top: 10px;
+}
+
+.store-hero-img {
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+  z-index: -1;
+}
+
+/* Store Hero Section CSS End */
+
+/* Subscription Steps Section CSS Start */
+
+.subscription-steps-container {
+  padding-top: 60px;
+}
+
+.subscription-steps-img {
+  max-width: 100%;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.subscription-steps-img img {
+  max-width: 100%;
+  width: 100%;
+  min-height: 360px;
+  max-height: 360px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.subscription-steps-content h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--secondary);
+}
+
+.subscription-steps-content p {
+  padding: 10px 0 8px;
+}
+
+.subscription-content-bottom p {
+  padding: 0;
+  margin: 0;
+}
+
+.subscription-content-bottom ul {
+  padding-left: 16px;
+}
+
+.subscription-content-bottom ul li {
+  list-style: disc;
+  font-size: 14px;
+  color: var(--dark);
+}
+
+.subscription-content-bottom-2 ul {
+  padding-left: 16px;
+}
+
+.subscription-content-bottom-2 ul li {
+  list-style: number;
+  font-size: 14px;
+  color: var(--dark);
+}
+
+/* Subscription Steps Section CSS End */
+
+/* Learning Section CSS Start */
+
+.learning-container {
+  background: url(../images/home/learning-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  padding: 45px;
+  border-radius: 25px;
+}
+
+.learning-top {
+  max-width: 880px;
+  width: 100%;
+}
+
+.learning-top h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--light);
+  padding-bottom: 10px;
+}
+
+.learning-top h4 span {
+  color: var(--primary);
+}
+
+.learning-top p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--light);
+}
+
+.learning-card {
+  background: #ffffff;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.learning-card-img img {
+  max-width: 100%;
+  width: 100%;
+  min-height: 250px;
+  max-height: 250px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.learning-tag {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px 15px 20px;
+  border-radius: 0px 20px 0px 0px;
+}
+
+.learning-tag-green {
+  background: var(--primary);
+}
+
+.learning-tag-blue {
+  background: #276e9b;
+}
+
+.learning-tag-orange {
+  background: #c85512;
+}
+
+.learning-tag span {
+  position: relative;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--light);
+}
+
+.learning-tag span::after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  bottom: -10px;
+  width: 71px;
+  height: 3px;
+  background: var(--light);
+}
+
+.learning-card-content {
+  padding: 20px;
+}
+
+.learning-card-content ul li {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark);
+  padding-bottom: 10px;
+}
+
+.learning-card-content ul li span {
+  padding-left: 3px;
+}
+
+.learning-price p {
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.learning-price-green p {
+  color: var(--primary);
+}
+
+.learning-price-blue p {
+  color: #276e9b;
+}
+
+.learning-price-orange p {
+  color: #c85512;
+}
+
+.learning-btn {
+  padding: 25px 0 10px;
+}
+
+.learning-btn .fill-btn {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+.learning-bottom .outline-btn {
+  border-color: var(--light);
+}
+
+.learning-bottom {
+  padding: 40px 0 20px;
+}
+
+/* Learning Section CSS End */
+
+/* Subscribe Portal Section CSS Start */
+
+.subscribe-portal-wrapper {
+  padding-top: 60px;
+}
+
+.subscribe-poral-content h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--secondary);
+}
+
+.subs-portal-card-container {
+  display: flex;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  justify-content: center;
+  padding: 10px 0 20px;
+}
+
+.subs-portal-card {
+  width: 100%;
+  text-align: center;
+}
+
+.subs-portal-card img {
+  width: 100%;
+  min-height: 110px;
+  max-height: 110px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.subs-portal-card p {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--dark);
+  padding-top: 8px;
+  margin-bottom: 0;
+}
+
+/* Subscribe Portal Section CSS End */
+
+/* Subscription Choosing Section CSS Start */
+
+.subscription-choosing-wrapper {
+  padding-top: 60px;
+}
+
+.subscription-choosing-content h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--secondary);
+  margin-bottom: 20px;
+}
+
+.subs-choosing-card {
+  padding-top: 20px;
+}
+
+.subs-choosing-card-img {
+  max-width: 90px;
+  width: 100%;
+  margin-right: 15px;
+}
+
+.subs-choosing-card-img img {
+  max-width: 90px;
+  width: 100%;
+  min-height: 100px;
+  max-height: 100px;
+  height: 100%;
+}
+
+.subs-choosing-card-content p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark);
+  margin-bottom: 0;
+}
+
+/* Subscription Choosing Section CSS End */
+
+/* Additional Services Section CSS Start */
+
+.additional-services-wrapper {
+  padding-top: 60px;
+}
+
+.additional-services-container {
+  background: url(../images/store/additional-services-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 40px 50px;
+  border-radius: 20px;
+}
+
+.additional-services-top h6 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  color: var(--light);
+}
+
+.additional-services-card {
+  padding-top: 20px;
+}
+
+.additional-services-card h6 {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--light);
+}
+
+.additional-services-card p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--light);
+  padding-top: 10px;
+}
+
+.additional-services-bottom h6 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  color: var(--secondary);
+}
+
+/* Additional Services Section CSS End */
+
+/* ============***============
+Responsive CSS
+============***============ */
+
+/* Min Width 768px and Max Width 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .subs-portal-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-columns: 1fr;
+    align-content: space-around;
+  }
+}
+
+/* Min Width 300px and Max Width 767px */
+@media (min-width: 300px) and (max-width: 767px) {
+  .store-hero-wrapper {
+    background: url(../images/store/store-hero-bg.png);
+    padding: 20px 0 270px;
+  }
+
+  .store-hero-content h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .learning-container {
+    background: url(../images/store/learning-bg-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px 10px;
+    border-radius: 25px;
+  }
+
+  .learning-card-img img {
+    min-height: 190px;
+    max-height: 190px;
+    height: 100%;
+  }
+
+  .learning-top h4,
+  .subscription-steps-content h4,
+  .subscribe-poral-content h4,
+  .subscription-choosing-content h4 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .learning-tag span {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .subs-portal-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-columns: 1fr;
+    align-content: space-around;
+  }
+
+  .subscription-steps-container,
+  .subscribe-portal-wrapper,
+  .subscription-choosing-wrapper {
+    padding-top: 30px;
+  }
+
+  .subscription-steps-img {
+    padding-right: 0px;
+  }
+
+  .subscription-steps-img img {
+    max-width: 100%;
+    width: 100%;
+    min-height: 295px;
+    max-height: 295px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .additional-services-container {
+    background: url(../images/store/additional-services-bg-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 10px 20px;
+    border-radius: 20px;
+  }
+
+  .additional-services-top h6 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .additional-services-bottom h6 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+  }
+}

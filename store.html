@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduPanda - Store</title>
+
+    <!-- Font Awesome CDN for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="assets/css/common.css" />
+
+    <!-- Store Page CSS -->
+    <link rel="stylesheet" href="assets/css/store.css" />
+  </head>
+  <body>
+    <div id="body-overlay"></div>
+    <!-- Header Part HTML Start -->
+
+    <header>
+      <!-- Navigation Section HTML Start -->
+
+      <section id="Header">
+        <nav class="navbar navbar-expand-xl">
+          <div class="container">
+            <a class="logo" href="index.html"
+              ><img src="assets/images/common/logo.svg" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="toggler-icon top-bar"></span>
+              <span class="toggler-icon middle-bar"></span>
+              <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div
+                class="navbar-wrapper w-100 d-xl-flex justify-content-between"
+              >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-xl-4">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Kursy online
+
+                      <i class="dropdown_icon fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Locker six fluke blossom</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Measured pay dock arrgh</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Poop the blossom eye</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Korepetycje i projecty
+                      <i class="dropdown_icon fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Locker six fluke blossom</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Measured pay dock arrgh</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Poop the blossom eye</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Wzory, wykresy i tablice </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Egzaminy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sklep</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                </ul>
+                <div class="nav-buttons d-xl-flex align-items-center">
+                  <div class="country-dropdown">
+                    <div class="wrapper">
+                      <img
+                        class="selected"
+                        src="assets/images/common/poland.svg"
+                        alt="poland"
+                      />
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="country-list">
+                      <div class="country-item">
+                        <img
+                          src="assets/images/common/britain.svg"
+                          alt="britain"
+                        />
+                      </div>
+                      <div class="country-item">
+                        <img
+                          src="assets/images/common/germany.svg"
+                          alt="germany"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <li>
+                    <div id="register_btn">
+                      <a class="nav-link register-btn">Rejestracja</a>
+                    </div>
+                    <!-- Register Form -->
+
+                    <div id="Register">
+                      <div id="register_sidebar">
+                        <div class="register-wrapper">
+                          <div id="cross_btn" class="float-end">
+                            <i class="fa-solid fa-xmark"></i>
+                          </div>
+                          <div class="register-content">
+                            <h2>Zarejestruj się</h2>
+                            <p>
+                              Wprowadź swoje dane w poniższych polach, aby
+                              zarejestrować się na platformę Edupanda.
+                            </p>
+                            <div class="register-form-wrapper">
+                              <form>
+                                <div class="register-form">
+                                  <div class="form-input-field">
+                                    <label>Imię</label>
+                                    <input
+                                      type="text"
+                                      placeholder="Alex"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="form-input-field">
+                                    <label>Nazwisko</label>
+                                    <input
+                                      type="text"
+                                      placeholder="Karpenko"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="form-input-field">
+                                    <label>Email:</label>
+                                    <input
+                                      type="email"
+                                      placeholder="email@gmail.com"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="form-input-field">
+                                    <label>Hasło</label>
+                                    <input type="password" required />
+                                  </div>
+                                  <div class="form-input-field">
+                                    <label>Powtórz hasło</label>
+                                    <input type="password" required />
+                                  </div>
+                                  <div
+                                    class="form-btn-filed d-flex justify-content-between align-items-center"
+                                  >
+                                    <div
+                                      class="form-checkbox d-flex align-items-center"
+                                    >
+                                      <input type="checkbox" />
+                                      <label
+                                        >I agree with <br />
+                                        <span>terms and conditins.</span></label
+                                      >
+                                    </div>
+                                    <div>
+                                      <input
+                                        class="form-submit-btn"
+                                        type="submit"
+                                        value="Zarejestruj się"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="ms-xl-4">
+                    <div id="login_btn">
+                      <a class="nav-link login-btn">Logowanie</a>
+                    </div>
+                    <!-- Login Form -->
+
+                    <div id="Register">
+                      <div id="login_sidebar">
+                        <div class="register-wrapper position-relative">
+                          <div id="cross_btn2" class="float-end">
+                            <i class="fa-solid fa-xmark"></i>
+                          </div>
+                          <div class="login-content">
+                            <h2>Zaloguj się</h2>
+                            <p>
+                              Wprowadź swoje dane w poniższych polach, aby wejść
+                              na platformę Edupanda.
+                            </p>
+                            <div class="login-form-container">
+                              <form>
+                                <div class="login-form">
+                                  <div class="login-input">
+                                    <i class="fa-solid fa-user"></i>
+                                    <input
+                                      type="text"
+                                      placeholder="Login"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="login-input pass-input">
+                                    <i class="fa-solid fa-key"></i>
+                                    <input
+                                      type="password"
+                                      placeholder="Hasło"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="forgot-password">
+                                    <a href="#">Zapomniałeś hasła?</a>
+                                  </div>
+                                  <div
+                                    class="login-check d-flex justify-content-between align-items-center"
+                                  >
+                                    <div class="login-checkbox">
+                                      <input type="checkbox" />
+                                      <label>Zapamiętaj mnie</label>
+                                    </div>
+                                    <div class="login-submit-btn">
+                                      <input
+                                        class="form-submit-btn"
+                                        type="submit"
+                                        value="Logowanie"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                          <div class="have-account">
+                            <p>Don’t have an account yet?</p>
+                            <a href="#">Register here</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <!-- Navigation Section HTML End -->
+
+      <!-- Store Hero Section HTML Start -->
+
+      <section id="Hero">
+        <div class="store-hero-wrapper position-relative">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="store-hero-content">
+                  <h2>
+                    Abonament EduPanda – najlepsze kursy i korepetycje
+                    techniczne
+                  </h2>
+                  <p>
+                    Studia na politechnice, podwyższenie kwalifikacji, a może
+                    pasja do przedmiotów technicznych? Wybierz abonament
+                    EduPanda po pełen dostęp do naszych kursów!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="store-hero-img d-none d-md-block">
+            <img
+              draggable="false"
+              src="assets/images/store/store-hero-img.png"
+              alt="hero-img"
+            />
+          </div>
+          <div class="store-hero-img d-md-none">
+            <img
+              draggable="false"
+              src="assets/images/store/store-hero-img-mobile.png"
+              alt="hero-img-mobile"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Store Hero Section HTML End -->
+    </header>
+
+    <!-- Header Part HTML End -->
+
+    <!-- Main Part HTML Start -->
+
+    <main>
+      <!-- Subscription Steps Section HTML Start -->
+
+      <section id="Subscription-steps">
+        <div class="subscription-steps-wrapper">
+          <div class="container">
+            <div
+              class="row subscription-steps-container align-items-center flex-column-reverse flex-md-row"
+            >
+              <div class="col-md-6 col-lg-4 pt-3 pt-md-0">
+                <div class="subscription-steps-img">
+                  <img
+                    src="assets/images/store/subscription-steps-img1.png"
+                    alt="subscription-steps-img1"
+                  />
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-8">
+                <div class="subscription-steps-content">
+                  <h4>Na czym polega abonament EduPanda?</h4>
+                  <p>
+                    Portal EduPanda to perfekcyjne miejsce dla wszystkich
+                    studentów wyższych szkół technicznych, uczniów techników, a
+                    także każdego, kto interesuje się przedmiotami ścisłymi i
+                    technicznymi. Na łamach naszych stron znaleźć możesz mnóstwo
+                    materiałów przydatnych w nauce do sprawdzianów, kolokwiów
+                    czy egzaminów. Część tych treści udostępniamy każdemu
+                    odbiorcy bezpłatnie, inne zaś dostępne są wyłącznie dla
+                    osób, które wykupią abonament EduPanda.
+                  </p>
+                  <div class="subscription-content-bottom">
+                    <p>
+                      Przygotowane przez nas abonamenty pozwalają uzyskać pełen
+                      dostęp do treści publikowanych na naszym portalu
+                      internetowym. Będąc zarejestrowanym i zalogowanym
+                      użytkownikiem naszego serwisu, możesz wybierać spośród
+                      trzech długości trwania abonamentów:
+                    </p>
+                    <ul>
+                      <li>Tydzień</li>
+                      <li>Miesiąc</li>
+                      <li>Sześć miesięcy</li>
+                    </ul>
+                    <p>
+                      W okresie ważności swojego abonamentu, masz możliwość
+                      korzystania ze wszystkich materiałów, jakie udostępniamy w
+                      EduPanda. Wystarczy, że opłacisz dostęp w ramach wybranego
+                      przez siebie okresu ważności członkostwa. Pokażemy Ci, jak
+                      to bezproblemowo zrobić.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row subscription-steps-container align-items-center">
+              <div class="col-md-6 col-lg-8">
+                <div class="subscription-steps-content">
+                  <h4>
+                    Jak wybrać i opłacić abonament EduPanda krok po kroku?
+                  </h4>
+                  <p>
+                    Abonament EduPanda to jedyne w swoim rodzaju rozwiązanie dla
+                    osób, które pragną rozwijać swoją wiedzę i umiejętności z
+                    zakresu przedmiotów ścisłych i technicznych. Ponadto, dostęp
+                    do materiałów edukacyjnych pozwala zdobyć nowe kwalifikacje,
+                    a także odpowiednio przygotować się do kolokwiów,
+                    sprawdzianów i egzaminów. Warto zatem sprawdzić, jak krok po
+                    kroku dołączyć do tysięcy zadowolonych użytkowników
+                    EduPanda. Zobacz, w jaki sposób możesz wygodnie wybrać i
+                    zapłacić za abonament w naszym portalu:
+                  </p>
+                  <div class="subscription-content-bottom-2">
+                    <ul>
+                      <li>
+                        Kliknij przycisk „Rejestracja” w prawym górnym rogu
+                        strony.
+                      </li>
+                      <li>
+                        Uzupełnij krótki formularz rejestracyjny, podając swój
+                        login, hasło oraz adres mailowy.
+                      </li>
+                      <li>
+                        Zostaniesz z automatu zalogowany na stronie EduPanda.
+                      </li>
+                      <li>
+                        Wybierz czas trwania abonamentu, jaki najbardziej Ci
+                        odpowiada (tydzień, miesiąc lub 6 miesięcy).
+                      </li>
+                      <li>
+                        Kliknij w wybrany abonament, żeby przejść na stronę
+                        płatności.
+                      </li>
+                      <li>
+                        Opłaty można dokonać przy pomocy karty płatniczej
+                        (obsługiwane przez Stripe), usługi Google Pay lub za
+                        pośrednictwem Link.
+                      </li>
+                      <li>
+                        Po finalizacji płatności od razu otrzymasz dostęp do
+                        wykupionego abonamentu.
+                      </li>
+                    </ul>
+                    <p>
+                      Jak widać, opisany powyżej proces jest niezwykle
+                      intuicyjny, a do tego nie zajmuje dużo czasu. Nie zwlekaj,
+                      załóż konto w naszym serwisie już teraz i odkryj wszystko,
+                      co dla Ciebie przygotowaliśmy!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="subscription-steps-img">
+                  <img
+                    src="assets/images/store/subscription-steps-img2.png"
+                    alt="subscription-steps-img2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Subscription Steps Section HTML End -->
+
+      <!-- Learning Section HTML Start -->
+
+      <section id="Learning">
+        <div class="learning-wrapper">
+          <div class="container">
+            <div class="learning-container">
+              <div class="learning-top">
+                <h4>Abonament <span>EduPanda</span></h4>
+                <p>
+                  Abonament EduPanda jest aktywny od razu po dokonaniu opłaty.
+                  Przed zakupem zarejestruj konto w naszym systemie, a następnie
+                  zaloguj się na swój profil użytkownika. Wybierz okres ważności
+                  swojego abonamentu i zyskaj pełen dostęp do zasobów portalu.
+                </p>
+                <p>
+                  Aby dokonać zakupu musisz być zalogowany! Aby dokonać zakupu
+                  musisz być zalogowany! Aby dokonać zakupu musisz być
+                  zalogowany!
+                </p>
+              </div>
+              <div class="row py-4">
+                <div class="col-md-6 col-lg-4">
+                  <div class="learning-card">
+                    <div class="learning-card-img position-relative">
+                      <img
+                        src="assets/images/store/store-learning-img1.png"
+                        alt="store-learning-img1"
+                      />
+                      <div class="learning-tag learning-tag-green">
+                        <span>Edu Tydzień</span>
+                      </div>
+                    </div>
+                    <div class="learning-card-content">
+                      <ul>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-green.svg"
+                            alt="check-icon-green"
+                          />
+                          <span> Elektrotechnika / Teoria odwodów </span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-green.svg"
+                            alt="check-icon-green"
+                          />
+                          <span> Mechanika techniczna </span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-green.svg"
+                            alt="check-icon-green"
+                          />
+                          <span> Mechanika budowli </span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-green.svg"
+                            alt="check-icon-green"
+                          />
+                          <span> Mechanika płynów </span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-green.svg"
+                            alt="check-icon-green"
+                          />
+                          <span> Metody numeryczne </span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-green.svg"
+                            alt="check-icon-green"
+                          />
+                          <span> Robot Structural Analysis </span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-green.svg"
+                            alt="check-icon-green"
+                          />
+                          <span> Wytrzymałość materiałów </span>
+                        </li>
+                      </ul>
+                      <div class="learning-price learning-price-green">
+                        <p>Cena: 99 PLN/7 dni</p>
+                      </div>
+                      <div class="learning-btn">
+                        <a class="fill-btn" href="#">Chcę ten</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-3 mt-md-0">
+                  <div class="learning-card">
+                    <div class="learning-card-img position-relative">
+                      <img
+                        src="assets/images/store/store-learning-img2.png"
+                        alt="store-learning-img2"
+                      />
+                      <div class="learning-tag learning-tag-blue">
+                        <span>Edu 1 Mieściąć</span>
+                      </div>
+                    </div>
+                    <div class="learning-card-content">
+                      <ul>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-green.svg"
+                            alt="check-icon-green"
+                          />
+                          <span>Elektrotechnika / Teoria odwodów</span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-green.svg"
+                            alt="check-icon-green"
+                          />
+                          <span> Mechanika techniczna </span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-green.svg"
+                            alt="check-icon-green"
+                          />
+                          <span> Mechanika budowli </span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-green.svg"
+                            alt="check-icon-green"
+                          />
+                          <span>Mechanika płynów</span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-green.svg"
+                            alt="check-icon-green"
+                          />
+                          <span>Metody numeryczne</span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-green.svg"
+                            alt="check-icon-green"
+                          />
+                          <span>Robot Structural Analysis</span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-green.svg"
+                            alt="check-icon-green"
+                          />
+                          <span>Wytrzymałość materiałów</span>
+                        </li>
+                      </ul>
+                      <div class="learning-price learning-price-blue">
+                        <p>Cena: 199 PLN/30 dni</p>
+                      </div>
+                      <div class="learning-btn">
+                        <a class="fill-btn" href="#">Chcę ten</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-3 mt-lg-0">
+                  <div class="learning-card">
+                    <div class="learning-card-img position-relative">
+                      <img
+                        src="assets/images/store/store-learning-img3.png"
+                        alt="store-learning-img3"
+                      />
+                      <div class="learning-tag learning-tag-orange">
+                        <span>Edu 6 miesięcy</span>
+                      </div>
+                    </div>
+                    <div class="learning-card-content">
+                      <ul>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-orange.svg"
+                            alt="check-icon-orange"
+                          />
+                          <span>Elektrotechnika / Teoria odwodów</span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-orange.svg"
+                            alt="check-icon-orange"
+                          />
+                          <span> Mechanika techniczna </span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-orange.svg"
+                            alt="check-icon-orange"
+                          />
+                          <span> Mechanika budowli </span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-orange.svg"
+                            alt="check-icon-orange"
+                          />
+                          <span>Mechanika płynów</span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-orange.svg"
+                            alt="check-icon-orange"
+                          />
+                          <span>Metody numeryczne</span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-orange.svg"
+                            alt="check-icon-orange"
+                          />
+                          <span>Robot Structural Analysis</span>
+                        </li>
+                        <li>
+                          <img
+                            draggable="false"
+                            src="assets/images/store/check-icon-orange.svg"
+                            alt="check-icon-orange"
+                          />
+                          <span>Wytrzymałość materiałów</span>
+                        </li>
+                      </ul>
+                      <div class="learning-price learning-price-orange">
+                        <p>Cena: 499 PLN/180 dni</p>
+                      </div>
+                      <div class="learning-btn">
+                        <a class="fill-btn" href="#">Chcę ten</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="learning-bottom">
+                <div class="text-center">
+                  <a href="#" class="outline-btn"
+                    >Załóż konto w naszym serwisie!</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Learning Section HTML End -->
+
+      <!-- Subscribe Portal Section HTML Start -->
+
+      <section id="Subscribe-portal">
+        <div class="subscribe-portal-wrapper">
+          <div class="container">
+            <div class="subscribe-poral-content">
+              <h4>
+                Co dają uczniom i studentom abonamenty na portalu EduPanda?
+              </h4>
+              <p>
+                Nasze abonamenty powstały z myślą o wszystkich uczniach i
+                studentach, którzy pragną poszerzać swoje horyzonty w zakresie
+                najważniejszych dziedzin nauk ścisłych i technicznych. Projekt
+                EduPanda skupia się na najczęściej poszukiwanych tematach, które
+                stanowią klucz do sukcesu przyszłych inżynierów. Wykupując
+                dostęp do płatnych materiałów edukacyjnych, możesz uzyskać
+                wiedzę teoretyczną, a także zadania praktyczne z następujących
+                działów:
+              </p>
+
+              <div class="subs-portal-card-container">
+                <div class="subs-portal-card">
+                  <img
+                    src="assets/images/store/subscribe-portal-img1.png"
+                    alt="subscribe-portal-img1"
+                  />
+                  <p>Elektrotechnika <br />Teoria odwodów</p>
+                </div>
+                <div class="subs-portal-card">
+                  <img
+                    src="assets/images/store/subscribe-portal-img2.png"
+                    alt="subscribe-portal-img2"
+                  />
+                  <p>Mechanika <br />techniczna</p>
+                </div>
+                <div class="subs-portal-card">
+                  <img
+                    src="assets/images/store/subscribe-portal-img3.png"
+                    alt="subscribe-portal-img3"
+                  />
+                  <p>Mechanika <br />budowli</p>
+                </div>
+                <div class="subs-portal-card">
+                  <img
+                    src="assets/images/store/subscribe-portal-img4.png"
+                    alt="subscribe-portal-img4"
+                  />
+                  <p>Mechanika <br />płynów</p>
+                </div>
+                <div class="subs-portal-card">
+                  <img
+                    src="assets/images/store/subscribe-portal-img5.png"
+                    alt="subscribe-portal-img5"
+                  />
+                  <p>Metody <br />numeryczne</p>
+                </div>
+                <div class="subs-portal-card">
+                  <img
+                    src="assets/images/store/subscribe-portal-img6.png"
+                    alt="subscribe-portal-img6"
+                  />
+                  <p>Robot Structural <br />Analysis</p>
+                </div>
+                <div class="subs-portal-card">
+                  <img
+                    src="assets/images/store/subscribe-portal-img6.png"
+                    alt="subscribe-portal-img6"
+                  />
+                  <p>Wytrzymałość <br />materiałów</p>
+                </div>
+              </div>
+
+              <p>
+                Dostępność tematyki technicznej na naszej platformie będzie
+                stale się rozwijać, więc wkrótce do Twojej dyspozycji będą
+                kolejne kategorie zajęć. Dla wszystkich powyższych działów
+                stworzyliśmy wysokiej jakości kursy online, gdzie każdy znajdzie
+                optymalną wiedzę teoretyczną i praktyczną. Skupiamy się na
+                zbalansowanej realizacji procesów edukacyjnych, poprzez
+                połączenie kluczowych informacji z gotowymi zadaniami.
+              </p>
+              <p>
+                Będąc beneficjentem abonamentu EduPanda możesz zatem poznawać
+                najważniejsze dyscypliny nauki w sposób kompleksowy. Nasze kursy
+                internetowe zostały przygotowane starannie i z należytą uwagą,
+                realizując tym samym najważniejsze wymagania wykładowców
+                czołowych uczelni w Polsce. Ponadto, na łamach naszych stron
+                znaleźć możesz prawdziwe zadania egzaminacyjne z topowych
+                wydziałów politechnik i akademii w naszym kraju. Nasi eksperci
+                rozwiązują realne zadania z egzaminów, żeby pokazać Ci, na czym
+                polega proces myślowy krok po kroku. Dzięki tego typu „gotowcom”
+                możesz skuteczniej przygotować się do własnych kolokwiów,
+                testów, sprawdzianów i sesji egzaminacyjnych.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Subscribe Portal Section HTML End -->
+
+      <!-- Subscription Choosing Section HTML Start -->
+
+      <section id="Subscription-choosing">
+        <div class="subscription-choosing-wrapper">
+          <div class="container">
+            <div class="subscription-choosing-content">
+              <h4>
+                Dlaczego warto wybrać abonamenty w naszym serwisie z kursami
+                online?
+              </h4>
+              <p>
+                Abonament kursów online to niezwykle korzystna opcja dla różnych
+                grup odbiorców. Z powodzeniem skorzystać z niej mogą przede
+                wszystkim uczniowie i studenci, ale na tym nie koniec. Nauka
+                przedmiotów technicznych i ścisłych to również rewelacyjny
+                kierunek dla przedsiębiorców, pracowników technicznych, a także
+                osób prywatnych. Każdy może skorzystać ze zgromadzonej w
+                EduPanda wiedzy, która pozwala rozwijać zainteresowania i
+                czerpać z jakościowej teorii oraz praktyki. Abonament EduPanda
+                stanowi niepowtarzalną szansę na rozwój nowych umiejętności, a
+                także zdobywanie dodatkowych kwalifikacji. Posiadana wiedza
+                pozwala lepiej przygotowywać się do budowania swojej kariery
+                zawodowej. W efekcie, wykształcenie tego typu przełoży się na
+                potencjalny awans zawodowy czy też zwiększenie wartości na rynku
+                pracy.
+              </p>
+              <p>
+                Ponadto, kursy online oferowane w ramach abonamentów, również
+                oferują szereg ważnych zalet:
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-lg-4">
+                <div class="subs-choosing-card d-flex align-items-center">
+                  <div class="subs-choosing-card-img">
+                    <img
+                      src="assets/images/store/subscription-choosing-card-img1.svg"
+                      alt="subscription-choosing-card-img1"
+                    />
+                  </div>
+                  <div class="subs-choosing-card-content">
+                    <p>
+                      Zawierają jakościową wiedzę teoretyczną opracowaną na
+                      bazie sprawdzonych źródeł.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="subs-choosing-card d-flex align-items-center">
+                  <div class="subs-choosing-card-img">
+                    <img
+                      src="assets/images/store/subscription-choosing-card-img2.svg"
+                      alt="subscription-choosing-card-img2"
+                    />
+                  </div>
+                  <div class="subs-choosing-card-content">
+                    <p>
+                      Posługują się przykładami praktycznymi celem wyjaśnienia
+                      zjawisk i właściwości.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="subs-choosing-card d-flex align-items-center">
+                  <div class="subs-choosing-card-img">
+                    <img
+                      src="assets/images/store/subscription-choosing-card-img3.svg"
+                      alt="subscription-choosing-card-img3"
+                    />
+                  </div>
+                  <div class="subs-choosing-card-content">
+                    <p>
+                      W wybranych miejscach są wsparte przez materiały wideo,
+                      będące uzupełnieniem całości procesu kształcenia.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="subs-choosing-card d-flex align-items-center">
+                  <div class="subs-choosing-card-img">
+                    <img
+                      src="assets/images/store/subscription-choosing-card-img4.svg"
+                      alt="subscription-choosing-card-img4"
+                    />
+                  </div>
+                  <div class="subs-choosing-card-content">
+                    <p>
+                      Kursy online EduPanda są idealnie zrównoważone, a także
+                      usystematyzowane i uporządkowane.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="subs-choosing-card d-flex align-items-center">
+                  <div class="subs-choosing-card-img">
+                    <img
+                      src="assets/images/store/subscription-choosing-card-img5.svg"
+                      alt="subscription-choosing-card-img5"
+                    />
+                  </div>
+                  <div class="subs-choosing-card-content">
+                    <p>
+                      Treści i materiały edukacyjne spełniają wszelkie normy
+                      wynikające z wymagań czołowych polskich politechnik i
+                      uczelni wyższych.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Subscription Choosing Section HTML End -->
+
+      <!-- Additional Services Section HTML Start -->
+
+      <section id="Additional-services">
+        <div class="additional-services-wrapper">
+          <div class="container">
+            <div class="additional-services-container">
+              <div class="additional-services-top">
+                <h6>
+                  Abonamenty EduPanda i kursy online to niejedyne opcje, jakie
+                  przygotowaliśmy z myślą o użytkownikach zainteresowanych
+                  poszerzaniem wiedzy. Jeżeli interesują Cię przedmioty ścisłe i
+                  techniczne, możesz skorzystać także z naszych dodatkowych
+                  usług, jakimi są:
+                </h6>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-lg-4">
+                  <div class="additional-services-card">
+                    <h6>Korepetycje</h6>
+                    <p>
+                      Zarówno stacjonarne, jak również online, te zajęcia
+                      indywidualne z korepetytorem to świetna alternatywa dla
+                      naszych kursów. Możesz korzystać z zajęć z
+                      wykwalifikowanym nauczycielem bez żadnych granic.
+                      Korepetycje techniczne pozwalają rozwiać wszelkie
+                      wątpliwości związane z nauką.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="additional-services-card">
+                    <h6>Wzory, wykresy, tablice</h6>
+                    <p>
+                      Udostępniamy szereg najważniejszych informacji
+                      teoretycznych dla uczących się przedmiotów technicznych.
+                      Przygotowane i opracowane przez nas tablice, wykresy i
+                      wzory są niezwykle pomocne zarówno podczas korzystania z
+                      kursów EduPanda, jak też korepetycji.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="additional-services-card">
+                    <h6>Egzaminy</h6>
+                    <p>
+                      W tej kategorii znajdziesz opisane już wcześniej prawdziwe
+                      zadania egzaminacyjne z rozwiązaniami. Przeanalizuj
+                      zadania z egzaminów, jakie pojawiają się na czołowych
+                      polskich uczelniach (m.in. AGH, SGGW czy Politechnika
+                      Warszawska). Idealna pomoc naukowa przed kolejną sesją
+                      egzaminacyjną!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="additional-services-bottom pt-4">
+              <h6>
+                EduPanda to Twoja najlepsza platforma edukacyjna, gdzie
+                znajdziesz bogaty wybór kursów, korepetycji, teorii i zadań
+                praktycznych. Dołącz do nas, a przedmioty techniczne nie będą
+                miały przed Tobą żadnych tajemnic!
+              </h6>
+              <div class="pt-5">
+                <a class="fill-btn" href="#">Załóż konto w naszym serwisie!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Additional Services Section HTML End -->
+    </main>
+
+    <!-- Main Part HTML End -->
+
+    <!-- Footer Part HTML Start -->
+
+    <footer id="Footer">
+      <div class="footer-wrapper">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-about text-center">
+              <div class="footer-logo">
+                <img src="assets/images/common/logo.svg" alt="logo" />
+              </div>
+              <div class="d-none d-md-block">
+                <p class="text-white">Copyright © 2018-2023 Edupanda</p>
+                <div class="footer-social">
+                  <a href="#"
+                    ><img
+                      src="assets/images/home/youtube-icon.svg"
+                      alt="youtube-icon"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      src="assets/images/home/facebook-icon.svg"
+                      alt="facebook-icon"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="footer-menu pt-5 pt-md-0">
+              <div class="footer-nav d-md-flex">
+                <div>
+                  <h6>Kursy online</h6>
+                  <ul>
+                    <li><a href="#">Mechanika techniczna</a></li>
+                    <li><a href="#">Wytrzymałość materiałów</a></li>
+                    <li><a href="#">Mechanika budowli</a></li>
+                    <li><a href="#">Mechanika płynów</a></li>
+                  </ul>
+                </div>
+                <div class="pt-30 ps-md-4">
+                  <ul>
+                    <li><a href="#">Metody numeryczne</a></li>
+                    <li><a href="#">Teoria obwodów</a></li>
+                    <li><a href="#">Robot Structural Analysis</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-menu pt-5 pt-lg-0">
+              <div class="footer-nav d-md-flex">
+                <div>
+                  <h6>Korepetycje</h6>
+                  <ul>
+                    <li><a href="#">Elektrotechnika</a></li>
+                    <li><a href="#">Mechanika budowli / konstrukcji</a></li>
+                    <li><a href="#">Mechanika płynów</a></li>
+                  </ul>
+                </div>
+                <div class="pt-30 ps-md-4">
+                  <ul>
+                    <li><a href="#">Mechanika techniczna</a></li>
+                    <li><a href="#">Metody numeryczne / obliczeniowe</a></li>
+                    <li><a href="#">Wytrzymałość Materiałów</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="d-md-none pt-5">
+                <p class="text-white">Copyright © 2018-2023 Edupanda</p>
+                <div class="footer-social">
+                  <a href="#"
+                    ><img
+                      src="assets/images/home/youtube-icon.svg"
+                      alt="youtube-icon"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      src="assets/images/home/facebook-icon.svg"
+                      alt="facebook-icon"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Part HTML End -->
+
+    <!-- Bootstrap JavaScript -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
