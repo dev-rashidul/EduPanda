@@ -636,12 +636,8 @@ Login CSS
 
 /* Responsive CSS */
 
-/* Min Width 1400px and Max Width 1599px */
-@media (min-width: 1400px) and (max-width: 1599px) {
-}
-
 /* Min Width 1200px and Max Width 1399px */
-@media (min-width: 1200px) and (max-width: 1399px) {
+@media (min-width: 1200px) and (max-width: 1599px) {
   .register-wrapper {
     padding: 20px 40px 0;
   }
